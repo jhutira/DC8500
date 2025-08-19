@@ -1,0 +1,18 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:20:18:virtual void ModelListener::updateIcons(uint8_t)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:21:18:virtual void ModelListener::updateClock()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:22:18:virtual void ModelListener::updateSensors()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:23:18:virtual void ModelListener::updateOutputs()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:24:18:virtual void ModelListener::updatePAirFlap()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:25:18:virtual void ModelListener::updateSAirFlap()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:26:18:virtual void ModelListener::updateEnergy()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	1
+../../TouchGFX/gui/include/gui/systemscreen_screen/systemScreenPresenter.hpp:28:13:systemScreenPresenter::~systemScreenPresenter()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:19:6:virtual void systemScreenPresenter::deactivate()	1
+../../TouchGFX/gui/include/gui/systemscreen_screen/systemScreenPresenter.hpp:28:13:virtual systemScreenPresenter::~systemScreenPresenter()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:10:6:virtual void systemScreenPresenter::activate()	1
+../../TouchGFX/gui/include/gui/systemscreen_screen/systemScreenPresenter.hpp:28:13:virtual void* systemScreenPresenter::_ZThn4_N21systemScreenPresenterD1Ev()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:4:1:systemScreenPresenter::systemScreenPresenter(systemScreenView&)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:24:6:void systemScreenPresenter::setDispSett(disp_sett_st)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:29:6:void systemScreenPresenter::setSoundSett(sound_sett_st)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:34:6:void systemScreenPresenter::setDefaultSettings()	1

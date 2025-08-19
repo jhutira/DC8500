@@ -1,0 +1,96 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:48:18:virtual void touchgfx::TextArea::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:54:18:virtual void touchgfx::TextArea::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:60:18:virtual touchgfx::Rect touchgfx::TextArea::getSolidRect() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:89:18:virtual void touchgfx::TextArea::setAlpha(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:127:18:virtual void touchgfx::TextArea::setXBaselineY(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:403:41:virtual const touchgfx::Unicode::UnicodeChar* touchgfx::TextArea::getWildcard2() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:84:41:virtual const touchgfx::Unicode::UnicodeChar* touchgfx::TextAreaWithOneWildcard::getWildcard1() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:61:34:virtual touchgfx::HAL::RenderingMethod touchgfx::AbstractPainter::getRenderingMethod() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:78:18:virtual bool touchgfx::AbstractPainter::setup(const touchgfx::Rect&) const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:90:18:virtual void touchgfx::AbstractPainter::tearDown() const	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:33:18:virtual void manualScreenViewBase::pfUpBtn_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:37:18:virtual void manualScreenViewBase::pfDownBtn_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:41:18:virtual void manualScreenViewBase::pfAutoBtn_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:45:18:virtual void manualScreenViewBase::sfUpBtn_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:49:18:virtual void manualScreenViewBase::sfDownBtn_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:53:18:virtual void manualScreenViewBase::sfAutoBtn_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:57:18:virtual void manualScreenViewBase::rbOnP1_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:61:18:virtual void manualScreenViewBase::rbOffP1_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:65:18:virtual void manualScreenViewBase::rbAutoP1_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:69:18:virtual void manualScreenViewBase::rbOnP2_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:73:18:virtual void manualScreenViewBase::rbOffP2_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:77:18:virtual void manualScreenViewBase::rbAutoP2_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:81:18:virtual void manualScreenViewBase::rbOnY1_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:85:18:virtual void manualScreenViewBase::rbOffY1_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:89:18:virtual void manualScreenViewBase::rbAutoY1_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:93:18:virtual void manualScreenViewBase::rbOnY2_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:97:18:virtual void manualScreenViewBase::rbOffY2_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:101:18:virtual void manualScreenViewBase::rbAutoY2_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:105:18:virtual void manualScreenViewBase::rbOnY3_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:109:18:virtual void manualScreenViewBase::rbOffY3_clicked()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/manualscreen_screen/manualScreenViewBase.hpp:113:18:virtual void manualScreenViewBase::rbAutoY3_clicked()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<manualScreenPresenter>::~View()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<manualScreenViewBase, const touchgfx::AbstractButton&>::~Callback()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/manualscreen_screen/manualScreenViewBase.cpp:344:6:virtual void manualScreenViewBase::setupScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/manualscreen_screen/manualScreenViewBase.cpp:402:6:void manualScreenViewBase::radioButtonSelectedCallbackHandler(const touchgfx::AbstractButton&)	16
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<touchgfx::RadioButtonGroup<3>, const touchgfx::AbstractButton&, void, void>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:53:13:touchgfx::RadioButtonGroup<CAPACITY>::~RadioButtonGroup() [with short unsigned int CAPACITY = 3]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = manualScreenViewBase; T1 = const touchgfx::AbstractButton&]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = manualScreenViewBase; T1 = const touchgfx::AbstractButton&]	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:78:26:touchgfx::RadioButton* touchgfx::RadioButtonGroup<CAPACITY>::getRadioButton(uint16_t) const [with short unsigned int CAPACITY = 3]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:89:21:int32_t touchgfx::RadioButtonGroup<CAPACITY>::getSelectedRadioButtonIndex() const [with short unsigned int CAPACITY = 3]	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:107:26:touchgfx::RadioButton* touchgfx::RadioButtonGroup<CAPACITY>::getSelectedRadioButton() const [with short unsigned int CAPACITY = 3]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:138:18:void touchgfx::RadioButtonGroup<CAPACITY>::setDeselectionEnabled(bool) [with short unsigned int CAPACITY = 3]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:153:18:bool touchgfx::RadioButtonGroup<CAPACITY>::getDeselectionEnabled() const [with short unsigned int CAPACITY = 3]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = touchgfx::RadioButtonGroup<3>; T1 = const touchgfx::AbstractButton&]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = touchgfx::RadioButtonGroup<3>; T1 = const touchgfx::AbstractButton&]	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:122:18:void touchgfx::RadioButtonGroup<CAPACITY>::setSelected(touchgfx::RadioButton&) [with short unsigned int CAPACITY = 3]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<manualScreenPresenter>::~View()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:53:13:touchgfx::RadioButtonGroup<CAPACITY>::~RadioButtonGroup() [with short unsigned int CAPACITY = 3]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<touchgfx::RadioButtonGroup<3>, const touchgfx::AbstractButton&, void, void>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<manualScreenViewBase, const touchgfx::AbstractButton&>::~Callback()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/manualscreen_screen/manualScreenViewBase.cpp:339:1:manualScreenViewBase::~manualScreenViewBase()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/manualscreen_screen/manualScreenViewBase.cpp:339:1:virtual manualScreenViewBase::~manualScreenViewBase()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/manualscreen_screen/manualScreenViewBase.cpp:349:6:void manualScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:43:18:virtual void touchgfx::TextAreaWithWildcardBase::invalidateContent() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:63:18:void touchgfx::RadioButtonGroup<CAPACITY>::add(touchgfx::RadioButton&) [with short unsigned int CAPACITY = 3]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:202:18:void touchgfx::RadioButtonGroup<CAPACITY>::radioButtonClickedHandler(const touchgfx::AbstractButton&) [with short unsigned int CAPACITY = 3]	6
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:227:18:void touchgfx::RadioButtonGroup<CAPACITY>::radioButtonDeselectedHandler(const touchgfx::AbstractButton&) [with short unsigned int CAPACITY = 3]	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:43:5:touchgfx::Container::Container()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:36:7:touchgfx::Widget::Widget()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:36:5:touchgfx::AbstractButton::AbstractButton()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:41:5:touchgfx::RadioButton::RadioButton()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:429:9:touchgfx::TextArea::BoundingArea::BoundingArea()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:43:5:touchgfx::TextArea::TextArea()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:49:36:virtual touchgfx::TextArea::BoundingArea touchgfx::TextAreaWithWildcardBase::calculateBoundingArea() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:65:5:touchgfx::TextAreaWithOneWildcard::TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	4
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:43:5:touchgfx::RadioButtonGroup<CAPACITY>::RadioButtonGroup() [with short unsigned int CAPACITY = 3]	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/manualscreen_screen/manualScreenViewBase.cpp:10:1:manualScreenViewBase::manualScreenViewBase()	2

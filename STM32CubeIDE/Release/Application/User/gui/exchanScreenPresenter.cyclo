@@ -1,0 +1,16 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:20:18:virtual void ModelListener::updateIcons(uint8_t)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:21:18:virtual void ModelListener::updateClock()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:22:18:virtual void ModelListener::updateSensors()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:23:18:virtual void ModelListener::updateOutputs()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:24:18:virtual void ModelListener::updatePAirFlap()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:25:18:virtual void ModelListener::updateSAirFlap()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:26:18:virtual void ModelListener::updateEnergy()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	1
+../../TouchGFX/gui/include/gui/exchanscreen_screen/exchanScreenPresenter.hpp:30:13:exchanScreenPresenter::~exchanScreenPresenter()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenPresenter.cpp:18:6:virtual void exchanScreenPresenter::deactivate()	1
+../../TouchGFX/gui/include/gui/exchanscreen_screen/exchanScreenPresenter.hpp:30:13:virtual exchanScreenPresenter::~exchanScreenPresenter()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenPresenter.cpp:10:6:virtual void exchanScreenPresenter::activate()	1
+../../TouchGFX/gui/include/gui/exchanscreen_screen/exchanScreenPresenter.hpp:30:13:virtual void* exchanScreenPresenter::_ZThn4_N21exchanScreenPresenterD1Ev()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenPresenter.cpp:4:1:exchanScreenPresenter::exchanScreenPresenter(exchanScreenView&)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenPresenter.cpp:24:6:void exchanScreenPresenter::setExchangerValues(waterExch_st)	1

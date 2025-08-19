@@ -1,0 +1,39 @@
+1. tlacidlo Vypnutie rekuperacie
+ - timeout pouyit ako pri dver. spinaci
+
+2. PSW : per = 5min, runT = 20s
+
+Antimaryova ochrana:
+
+- perioda
+- cas
+- okruh
+- main menu
+
+- Exchanger - minT = 60C
+            - hyst 5C
+
+	pri kritickej teplote cerpadlo bezi
+
+- do fazy Dohorievania prejde za po nastavenom case
+- fazu predohrevu vyhodit
+
+
+- zmene schémy dialog ci nastavit default hodnoty.
+
+- obmedzit vstup do menu - volitelna funkcia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

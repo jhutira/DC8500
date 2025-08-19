@@ -1,0 +1,4 @@
+../Libraries/buzzer/buzzer.c:40:6:buzzer_init	120	static
+../Libraries/buzzer/buzzer.c:89:6:buzzer_on	16	static
+../Libraries/buzzer/buzzer.c:102:6:buzzer_off	4	static
+../Libraries/buzzer/buzzer.c:114:6:buzzer_set_pwm	16	static

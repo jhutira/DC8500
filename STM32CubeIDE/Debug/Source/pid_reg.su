@@ -1,0 +1,11 @@
+../Source/pid_reg.c:50:6:pid_init	40	static
+../Source/pid_reg.c:76:6:pid_setDefault	16	static
+../Source/pid_reg.c:89:6:pid_setSetpoint	16	static
+../Source/pid_reg.c:102:6:pid_setDt	16	static
+../Source/pid_reg.c:115:6:pid_setTolerance	16	static
+../Source/pid_reg.c:127:6:pid_enableDebug	16	static
+../Source/pid_reg.c:139:6:pid_reset	16	static
+../Source/pid_reg.c:152:6:pid_isAtSetpoint	16	static
+../Source/pid_reg.c:164:7:pid_compute	88	static
+../Source/pid_reg.c:221:6:pid_saveSettings	16	static
+../Source/pid_reg.c:234:6:pid_loadSettings	16	static

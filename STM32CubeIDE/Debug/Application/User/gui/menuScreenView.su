@@ -1,0 +1,13 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:515:10:void touchgfx::Drawable::setVisible(bool)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	16	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/menuscreen_screen/menuScreenViewBase.hpp:34:26:FrontendApplication& menuScreenViewBase::application()	16	static
+../../TouchGFX/gui/include/gui/menuscreen_screen/menuScreenView.hpp:11:13:menuScreenView::~menuScreenView()	16	static
+../../TouchGFX/gui/include/gui/menuscreen_screen/menuScreenView.hpp:11:13:virtual menuScreenView::~menuScreenView()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:4:1:menuScreenView::menuScreenView()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:9:6:virtual void menuScreenView::setupScreen()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:14:6:virtual void menuScreenView::tearDownScreen()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:19:6:void menuScreenView::enableButtons(uint8_t, uint8_t, uint8_t)	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:26:6:virtual void menuScreenView::serviceBtnClicked()	16	static

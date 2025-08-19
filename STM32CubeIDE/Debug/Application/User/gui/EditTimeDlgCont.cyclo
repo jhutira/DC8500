@@ -1,0 +1,34 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:515:10:void touchgfx::Drawable::setVisible(bool)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:246:22:const touchgfx::TypedText& touchgfx::TextArea::getTypedText() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:79:10:void touchgfx::TextAreaWithOneWildcard::setWildcard1(const touchgfx::Unicode::UnicodeChar*)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:98:10:void touchgfx::TextAreaWithOneWildcard::setWildcard(const touchgfx::Unicode::UnicodeChar*)	1
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemTimeCont.hpp:18:14:uint16_t MenuList_ItemTimeCont::getHours()	1
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemTimeCont.hpp:22:14:uint16_t MenuList_ItemTimeCont::getMinutes()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:41:7:constexpr touchgfx::TypedText::TypedText(const touchgfx::TypedText&)	1
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemTimeCont.hpp:37:22:touchgfx::TypedText MenuList_ItemTimeCont::getTypedTextFromName()	1
+../../TouchGFX/gui/include/gui/containers/EditTimeDlgCont.hpp:13:13:EditTimeDlgCont::~EditTimeDlgCont()	1
+../../TouchGFX/gui/include/gui/containers/EditTimeDlgCont.hpp:13:13:virtual EditTimeDlgCont::~EditTimeDlgCont()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:3:1:EditTimeDlgCont::EditTimeDlgCont()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:8:6:virtual void EditTimeDlgCont::initialize()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:16:6:void EditTimeDlgCont::showModal(touchgfx::ModalWindow*, MenuList_ItemTimeCont*)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:39:6:void EditTimeDlgCont::_update_value(uint8_t, uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:49:6:virtual void EditTimeDlgCont::okBtn_clicked()	4
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:71:6:virtual void EditTimeDlgCont::closeBtn_clicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:83:6:virtual void EditTimeDlgCont::upBtnH_clicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:95:6:virtual void EditTimeDlgCont::downBtnH_clicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:107:6:virtual void EditTimeDlgCont::upBtnM_clicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditTimeDlgCont.cpp:119:6:virtual void EditTimeDlgCont::downBtnM_clicked()	2

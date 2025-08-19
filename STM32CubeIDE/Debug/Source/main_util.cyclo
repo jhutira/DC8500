@@ -1,0 +1,8 @@
+../Source/main_util.c:72:6:LED_G_On	1
+../Source/main_util.c:84:6:LED_G_Toggle	1
+../Source/main_util.c:97:13:RTC_GetCalendar	1
+../Source/main_util.c:126:6:RTC_SetTime	1
+../Source/main_util.c:143:6:RTC_SetDate	1
+../Source/main_util.c:161:9:leapYear	3
+../Source/main_util.c:180:9:daysInMonth	3
+../Source/main_util.c:204:9:dayInWeek	4

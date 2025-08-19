@@ -1,0 +1,38 @@
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:58:5:touchgfx::Presenter::Presenter()	1
+../../TouchGFX/gui/include/gui/model/Model.hpp:80:10:void Model::setFireplaceDoorStatus(uint8_t)	1
+../../TouchGFX/gui/include/gui/model/Model.hpp:85:10:void Model::setDoorTimerM(uint16_t)	1
+../../TouchGFX/gui/include/gui/model/Model.hpp:95:10:void Model::startBurning()	1
+../../TouchGFX/gui/include/gui/model/Model.hpp:100:16:burning_st Model::getFireplaceBurning()	1
+../../TouchGFX/gui/include/gui/model/Model.hpp:105:14:sound_st Model::getSound()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:11:5:ModelListener::ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:13:13:ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:13:13:virtual ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:20:18:virtual void ModelListener::updateIcons(uint8_t)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:21:18:virtual void ModelListener::updateClock()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:22:18:virtual void ModelListener::updateSensors()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:23:18:virtual void ModelListener::updateOutputs()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:24:18:virtual void ModelListener::updatePAirFlap()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:25:18:virtual void ModelListener::updateSAirFlap()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:26:18:virtual void ModelListener::updateDebug()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:28:18:virtual void ModelListener::updateRegStatus()	1
+../../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:31:13:mainScreenPresenter::~mainScreenPresenter()	1
+../../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:31:13:virtual mainScreenPresenter::~mainScreenPresenter()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:5:1:mainScreenPresenter::mainScreenPresenter(mainScreenView&)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:11:6:virtual void mainScreenPresenter::activate()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:24:6:virtual void mainScreenPresenter::deactivate()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:29:6:virtual void mainScreenPresenter::updateClock()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:38:6:virtual void mainScreenPresenter::updateIcons(uint8_t)	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:47:6:virtual void mainScreenPresenter::updateSensors()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:77:6:virtual void mainScreenPresenter::updateOutputs()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:87:6:virtual void mainScreenPresenter::updatePAirFlap()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:95:6:virtual void mainScreenPresenter::updateSAirFlap()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:103:6:virtual void mainScreenPresenter::updateRegStatus()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:119:6:virtual void mainScreenPresenter::updateDebug()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:124:6:void mainScreenPresenter::doorBtnAction()	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:149:6:void mainScreenPresenter::doorBtnInit()	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:170:6:void mainScreenPresenter::soundBtnAction(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:175:6:void mainScreenPresenter::setBPrqFlueTemp(uint16_t)	1

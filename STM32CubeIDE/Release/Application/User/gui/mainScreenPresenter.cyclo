@@ -1,0 +1,19 @@
+../../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:31:13:mainScreenPresenter::~mainScreenPresenter()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:24:6:virtual void mainScreenPresenter::deactivate()	1
+../../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:31:13:virtual mainScreenPresenter::~mainScreenPresenter()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:11:6:virtual void mainScreenPresenter::activate()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:29:6:virtual void mainScreenPresenter::updateClock()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:38:6:virtual void mainScreenPresenter::updateIcons(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:47:6:virtual void mainScreenPresenter::updateSensors()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:79:6:virtual void mainScreenPresenter::updateOutputs()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:89:6:virtual void mainScreenPresenter::updatePAirFlap()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:97:6:virtual void mainScreenPresenter::updateSAirFlap()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:131:6:virtual void mainScreenPresenter::updateDebug()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:125:6:virtual void mainScreenPresenter::updateEnergy()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:105:6:virtual void mainScreenPresenter::updateRegStatus()	2
+../../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:31:13:virtual void* mainScreenPresenter::_ZThn4_N19mainScreenPresenterD1Ev()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:5:1:mainScreenPresenter::mainScreenPresenter(mainScreenView&)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:136:6:void mainScreenPresenter::doorBtnAction()	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:161:6:void mainScreenPresenter::doorBtnInit()	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:182:6:void mainScreenPresenter::soundBtnAction(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:187:6:void mainScreenPresenter::setBPrqFlueTemp(uint16_t)	1

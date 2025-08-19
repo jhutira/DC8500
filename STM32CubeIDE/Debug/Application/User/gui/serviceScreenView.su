@@ -1,0 +1,9 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	16	static
+../../TouchGFX/gui/include/gui/servicescreen_screen/serviceScreenView.hpp:11:13:serviceScreenView::~serviceScreenView()	16	static
+../../TouchGFX/gui/include/gui/servicescreen_screen/serviceScreenView.hpp:11:13:virtual serviceScreenView::~serviceScreenView()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenView.cpp:3:1:serviceScreenView::serviceScreenView()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenView.cpp:8:6:virtual void serviceScreenView::setupScreen()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenView.cpp:13:6:virtual void serviceScreenView::tearDownScreen()	16	static

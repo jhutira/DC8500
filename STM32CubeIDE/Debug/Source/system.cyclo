@@ -1,0 +1,5 @@
+../Source/system.c:52:6:system_init	1
+../Source/system.c:76:6:system_setDefault	1
+../Source/system.c:120:6:system_loadData	1
+../Source/system.c:158:6:system_saveData	1
+../Source/system.c:193:6:system_checkErrWarnState	11

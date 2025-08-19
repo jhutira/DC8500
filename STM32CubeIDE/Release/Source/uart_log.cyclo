@@ -1,0 +1,3 @@
+../Source/uart_log.c:48:13:uart_log_task	2
+../Source/uart_log.c:63:6:uart_log_init	3
+../Source/uart_log.c:87:6:uart_log_printf	2

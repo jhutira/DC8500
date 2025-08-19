@@ -1,0 +1,5 @@
+../../TouchGFX/target/STM32TouchController.hpp:40:7:STM32TouchController::~STM32TouchController()	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/STM32TouchController.cpp:71:6:virtual void STM32TouchController::init()	0	static
+../../TouchGFX/target/STM32TouchController.hpp:40:7:virtual STM32TouchController::~STM32TouchController()	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/STM32TouchController.cpp:80:6:virtual bool STM32TouchController::sampleTouch(int32_t&, int32_t&)	56	static,ignoring_inline_asm
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/STM32TouchController.cpp:47:10:void HAL_GPIO_EXTI_Falling_Callback(uint16_t)	0	static

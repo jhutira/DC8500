@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+    <Language Id="SK" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="SystemScreen">
+      <Text Id="sh_sound" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Sound notifications</Translation>
+        <Translation Language="SK">Zvukové oznámenia</Translation>
+      </Text>
+      <Text Id="sh_display" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Display</Translation>
+        <Translation Language="SK">Displej</Translation>
+      </Text>
+      <Text Id="s_sound_alarm" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">&gt;Alarms</Translation>
+        <Translation Language="SK">&gt;Alarmy</Translation>
+      </Text>
+      <Text Id="s_sound_warn" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">&gt;Warnings</Translation>
+        <Translation Language="SK">&gt;Upozornenia</Translation>
+      </Text>
+      <Text Id="s_sound_click" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">&gt;Click on screen</Translation>
+        <Translation Language="SK">&gt;Klik na obrazovku</Translation>
+      </Text>
+      <Text Id="s_sound_guiet_start" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Quiet interval - start </Translation>
+        <Translation Language="SK">Doba ticha - začiatok</Translation>
+      </Text>
+      <Text Id="s_sound_guiet_end" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Quiet interval - end</Translation>
+        <Translation Language="SK">Doba ticha - koniec</Translation>
+      </Text>
+      <Text Id="s_backlight" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Backlight</Translation>
+        <Translation Language="SK">Podsvietenie</Translation>
+      </Text>
+      <Text Id="s_screen_saver" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Screen saver</Translation>
+        <Translation Language="SK">Šetrič</Translation>
+      </Text>
+      <Text Id="s_saver_time" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">&gt;Activate time</Translation>
+        <Translation Language="SK">&gt;Čas aktivácie</Translation>
+      </Text>
+      <Text Id="s_saver_backlight" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">&gt;Backlight</Translation>
+        <Translation Language="SK">&gt;Podsvietenie</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Energy_Screen">
+      <Text Id="sh_flowmeter" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Flowmeter</Translation>
+        <Translation Language="SK">Prietokomer</Translation>
+      </Text>
+      <Text Id="s_q_factor" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Q Factor</Translation>
+        <Translation Language="SK">Q faktor</Translation>
+      </Text>
+      <Text Id="s_type" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Type</Translation>
+        <Translation Language="SK">Typ</Translation>
+      </Text>
+      <Text Id="s_view" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">View</Translation>
+        <Translation Language="SK">Zobraziť</Translation>
+      </Text>
+      <Text Id="s_none_fm" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">----------</Translation>
+        <Translation Language="SK">----------</Translation>
+      </Text>
+      <Text Id="s_pulse_fm" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Pulse type</Translation>
+        <Translation Language="SK">Impulzný</Translation>
+      </Text>
+      <Text Id="s_yfb3_fm" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">YFB3</Translation>
+        <Translation Language="SK">YFB3</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="AccumScreen">
+      <Text Id="s_deltaT_on" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Heating Delta T On</Translation>
+        <Translation Language="SK">Rozdiel teplot pre zapnutie ohrevu</Translation>
+      </Text>
+      <Text Id="s_deltaT_off" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Heating Delta T Off</Translation>
+        <Translation Language="SK">Rozdiel teplot pre vypnutie ohrevu</Translation>
+      </Text>
+      <Text Id="s_rqTemp" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Request temperature</Translation>
+        <Translation Language="SK">Požadovaná teplota</Translation>
+      </Text>
+      <Text Id="s_maxTemp" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Maximálna temperature</Translation>
+        <Translation Language="SK">Maximálna teplota</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="RegStatus">
+      <Text Id="s_bp0_estop" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Emergency stop</Translation>
+        <Translation Language="SK">Núdzove zastavenie</Translation>
+      </Text>
+      <Text Id="s_bp0_stop" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Stop</Translation>
+        <Translation Language="SK">Stop</Translation>
+      </Text>
+      <Text Id="s_bp1_startBurning" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Start burning</Translation>
+        <Translation Language="SK">Rozkurovanie</Translation>
+      </Text>
+      <Text Id="s_bp1_preheating" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Preheating</Translation>
+        <Translation Language="SK">Predohrev</Translation>
+      </Text>
+      <Text Id="s_bp2_burning" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Burning</Translation>
+        <Translation Language="SK">Horenie</Translation>
+      </Text>
+      <Text Id="s_bp3_burningOut" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Burning out</Translation>
+        <Translation Language="SK">Doháranie</Translation>
+      </Text>
+      <Text Id="s_bp4_glowEmbers" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Glowing embers</Translation>
+        <Translation Language="SK">Žiarový proces</Translation>
+      </Text>
+      <Text Id="s_bp5_ventil" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Ventilation</Translation>
+        <Translation Language="SK">Odvetrávanie</Translation>
+      </Text>
+      <Text Id="s_low_fuel" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Low Fuel !!!</Translation>
+        <Translation Language="SK">Nedostatok paliva !!!</Translation>
+      </Text>
+      <Text Id="s_door_opened" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Opened door !!!</Translation>
+        <Translation Language="SK">Otvorené dvere !!!</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="ModeScreen">
+      <Text Id="v_sch" Alignment="Left" TypographyId="Text20_Bold">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="sh_door_sw" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Door switch</Translation>
+        <Translation Language="SK">Dverný spínač</Translation>
+      </Text>
+      <Text Id="s_door_sw" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Door switch</Translation>
+        <Translation Language="SK">Dverný spínač</Translation>
+      </Text>
+      <Text Id="s_door_timeout" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Door open timeout</Translation>
+        <Translation Language="SK">Časový limit otvorených dverí</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="QuestionDlgCont">
+      <Text Id="msg_q_realydefault" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Really set default settings?</Translation>
+        <Translation Language="SK">Skutočne nastaviť výrobné nastavenia?</Translation>
+      </Text>
+      <Text Id="msg_q_realyclear_en" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Really reset energy counter?</Translation>
+        <Translation Language="SK">Naozaj resetovať počítadlo energie?</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="BurnScreen">
+      <Text Id="s_minFlueTemp" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Min. flue temperature</Translation>
+        <Translation Language="SK">Min. teplota spalín</Translation>
+      </Text>
+      <Text Id="s_maxFlueTemp" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Max. flue temperature</Translation>
+        <Translation Language="SK">Max. teplota spalín</Translation>
+      </Text>
+      <Text Id="sh_regPower" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Regulation of power</Translation>
+        <Translation Language="SK">Regulácia výkonu</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="AirFlap">
+      <Text Id="sh_PID" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">PID</Translation>
+        <Translation Language="SK">PID</Translation>
+      </Text>
+      <Text Id="sh_flap" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Flap</Translation>
+        <Translation Language="SK">Klapka</Translation>
+      </Text>
+      <Text Id="s_PID_CP" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">P</Translation>
+        <Translation Language="SK">P</Translation>
+      </Text>
+      <Text Id="s_PID_CI" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">I</Translation>
+        <Translation Language="SK">I</Translation>
+      </Text>
+      <Text Id="s_PID_CD" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">D</Translation>
+        <Translation Language="SK">D</Translation>
+      </Text>
+      <Text Id="s_PID_samp_period" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Sampling period</Translation>
+        <Translation Language="SK">Perioda vzorkovania</Translation>
+      </Text>
+      <Text Id="s_range_min" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Regulation range: [Min]</Translation>
+        <Translation Language="SK">Rozsah regulácie: [Min]</Translation>
+      </Text>
+      <Text Id="s_range_max" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Regulation range: [Max]</Translation>
+        <Translation Language="SK">Rozsah regulácie: [Max]</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Fireplace">
+      <Text Id="sh_start_burning" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Start Burning</Translation>
+        <Translation Language="SK">Rozkurovanie</Translation>
+      </Text>
+      <Text Id="sh_burning_out" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Burning Out</Translation>
+        <Translation Language="SK">Dohorievanie</Translation>
+      </Text>
+      <Text Id="sh_burning" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Burning</Translation>
+        <Translation Language="SK">Horenie</Translation>
+      </Text>
+      <Text Id="sh_glowing_embers" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Glowing Embers phase</Translation>
+        <Translation Language="SK">Fáza žeravých uhlíkov</Translation>
+      </Text>
+      <Text Id="sh_ventilation" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Ventilation</Translation>
+        <Translation Language="SK">Odvetranie</Translation>
+      </Text>
+      <Text Id="s_prim_flap" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Primary Flap</Translation>
+        <Translation Language="SK">Primárna klapka</Translation>
+      </Text>
+      <Text Id="s_sec_flap" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Secondary Flap</Translation>
+        <Translation Language="SK">Sekundárna klapka</Translation>
+      </Text>
+      <Text Id="s_temp" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Temperature</Translation>
+        <Translation Language="SK">Teplota</Translation>
+      </Text>
+      <Text Id="sh_critic_temp" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Critical temperature</Translation>
+        <Translation Language="SK">Kritická teplota</Translation>
+      </Text>
+      <Text Id="s_hyst" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Hysteresis</Translation>
+        <Translation Language="SK">Hysterézia</Translation>
+      </Text>
+      <Text Id="sh_min_temp" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Minimum temperature</Translation>
+        <Translation Language="SK">Minimálna teplota</Translation>
+      </Text>
+      <Text Id="s_run_time" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Run time</Translation>
+        <Translation Language="SK">Čas behu</Translation>
+      </Text>
+      <Text Id="s_period" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Period</Translation>
+        <Translation Language="SK">Perióda</Translation>
+      </Text>
+      <Text Id="sh_pm_water" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Periodic stirring of water</Translation>
+        <Translation Language="SK">Priodické premiešanie vody</Translation>
+      </Text>
+      <Text Id="s_timeout" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Timeout</Translation>
+        <Translation Language="SK">Časový limit</Translation>
+      </Text>
+      <Text Id="s_value_o2" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">O2 in Flue Gas</Translation>
+        <Translation Language="SK">O2 v spalinách</Translation>
+      </Text>
+      <Text Id="s_min_temp" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Minimum temperature</Translation>
+        <Translation Language="SK">Minimálna teplota</Translation>
+      </Text>
+      <Text Id="s_ph_start_burning" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Phase start burning</Translation>
+        <Translation Language="SK">Fáza rozkurovania</Translation>
+      </Text>
+      <Text Id="s_ph_burning" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Phase burning</Translation>
+        <Translation Language="SK">Fáza horenia</Translation>
+      </Text>
+      <Text Id="s_ph_burning_out" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Phase burning out</Translation>
+        <Translation Language="SK">Fáza dohorievania</Translation>
+      </Text>
+      <Text Id="s_time" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Time</Translation>
+        <Translation Language="SK">Doba</Translation>
+      </Text>
+      <Text Id="s_min_temp_to_burn" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Min. temperature for enter to BURN phase</Translation>
+        <Translation Language="SK">Min. teplota pre vstup do fázy HORENIA</Translation>
+      </Text>
+      <Text Id="s_temp_to_burnout" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Temperature for enter to BURNOUT phase</Translation>
+        <Translation Language="SK">Teplota pre vstup do fázy DOHOREVANIA</Translation>
+      </Text>
+      <Text Id="s_time_to_burnout" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Min. time for enter to BURNOUT phase</Translation>
+        <Translation Language="SK">Min. čas pre vstup do fázy DOHOREVANIA</Translation>
+      </Text>
+      <Text Id="s_temp_to_glowemb" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Temperature for enter to Glowing Embers phase</Translation>
+        <Translation Language="SK">Teplota pre vstup do fázy ŽERAVÝCH UHLÍKOV</Translation>
+      </Text>
+      <Text Id="s_time_to_glowemb" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Min. time for enter to Glowing Embers phase</Translation>
+        <Translation Language="SK">Min. čas pre vstup do fázy ŽERAVÝCH UHLÍKOV</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="ModeIOScreen">
+      <Text Id="s_in_DI1" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">DI1</Translation>
+        <Translation Language="SK">DI1</Translation>
+      </Text>
+      <Text Id="s_in_DI2" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">DI2</Translation>
+        <Translation Language="SK">DI2</Translation>
+      </Text>
+      <Text Id="sh_mode_DI" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Mode dig. input</Translation>
+        <Translation Language="SK">Režim dig. vstupu</Translation>
+      </Text>
+      <Text Id="s_cs_IPWM" Alignment="Left" TypographyId="combobox_item">
+        <Translation Language="GB">PWM_inv</Translation>
+        <Translation Language="SK">PWM_inv</Translation>
+      </Text>
+      <Text Id="s_cs_PWM" Alignment="Left" TypographyId="combobox_item">
+        <Translation Language="GB">PWM</Translation>
+        <Translation Language="SK">PWM</Translation>
+      </Text>
+      <Text Id="s_out_Y1" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Y1</Translation>
+        <Translation Language="SK">Y1</Translation>
+      </Text>
+      <Text Id="s_cs_0_10V" Alignment="Left" TypographyId="combobox_item">
+        <Translation Language="GB">0 - 10V</Translation>
+        <Translation Language="SK">0 - 10V</Translation>
+      </Text>
+      <Text Id="s_invert" Alignment="Left" TypographyId="combobox_item">
+        <Translation Language="GB">invert</Translation>
+        <Translation Language="SK">invertovaný</Translation>
+      </Text>
+      <Text Id="s_normal" Alignment="Left" TypographyId="combobox_item">
+        <Translation Language="GB">normal</Translation>
+        <Translation Language="SK">normálny</Translation>
+      </Text>
+      <Text Id="s_out_Y3" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Y3</Translation>
+        <Translation Language="SK">Y3</Translation>
+      </Text>
+      <Text Id="s_out_Y2" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Y2</Translation>
+        <Translation Language="SK">Y2</Translation>
+      </Text>
+      <Text Id="s_out_P2" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">P2</Translation>
+        <Translation Language="SK">P2</Translation>
+      </Text>
+      <Text Id="s_out_P1" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">P1</Translation>
+        <Translation Language="SK">P1</Translation>
+      </Text>
+      <Text Id="sh_mode_Out" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Mode output</Translation>
+        <Translation Language="SK">Režim výstupu</Translation>
+      </Text>
+      <Text Id="s_max_speed" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Maximal speed</Translation>
+        <Translation Language="SK">Maximálna rýchlosť</Translation>
+      </Text>
+      <Text Id="s_min_speed" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Minimal speed</Translation>
+        <Translation Language="SK">Minimálna rýchlosť</Translation>
+      </Text>
+      <Text Id="s_control_signal" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Control signal</Translation>
+        <Translation Language="SK">Riadiaci signál</Translation>
+      </Text>
+      <Text Id="sh_pump_P1" Alignment="Left" TypographyId="list_header">
+        <Translation Language="GB">Pump P1</Translation>
+        <Translation Language="SK">Čerpadlo P1</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="ComboBocxCont">
+      <Text Id="s_item1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Item1</Translation>
+        <Translation Language="SK">Item1</Translation>
+      </Text>
+      <Text Id="s_item2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Item2</Translation>
+        <Translation Language="SK">Item2</Translation>
+      </Text>
+      <Text Id="s_item3" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Item3</Translation>
+        <Translation Language="SK">Item3</Translation>
+      </Text>
+      <Text Id="s_item4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Item4</Translation>
+        <Translation Language="SK">Item4</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="LangScreen">
+      <Text Id="s_english" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">English</Translation>
+        <Translation Language="SK">English</Translation>
+      </Text>
+      <Text Id="s_slovak" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Slovak</Translation>
+        <Translation Language="SK">Slovenčina</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="EditNumCont">
+      <Text Id="v_value" Alignment="Right" TypographyId="Text30_Blold">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_maxVal" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_minVal" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_name" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unit" />
+    <TextGroup Id="TimeScreen">
+      <Text Id="v_timeDlg" Alignment="Right" TypographyId="Text60">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="DateScreen">
+      <Text Id="v_dateDlg" Alignment="Center" TypographyId="Text60">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="LabelDialog">
+      <Text Id="s_exchanDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Exchanger</Translation>
+        <Translation Language="SK">Výmeník</Translation>
+      </Text>
+      <Text Id="s_distribDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Distribution</Translation>
+        <Translation Language="SK">Distribúcia</Translation>
+      </Text>
+      <Text Id="s_manualDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Manual</Translation>
+        <Translation Language="SK">Manual</Translation>
+      </Text>
+      <Text Id="s_infoDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Info</Translation>
+        <Translation Language="SK">Info</Translation>
+      </Text>
+      <Text Id="s_burnDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Burning</Translation>
+        <Translation Language="SK">Horenie</Translation>
+      </Text>
+      <Text Id="s_timeDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Time</Translation>
+        <Translation Language="SK">Čas</Translation>
+      </Text>
+      <Text Id="s_dateDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Date</Translation>
+        <Translation Language="SK">Dátum</Translation>
+      </Text>
+      <Text Id="s_menuDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Menu</Translation>
+        <Translation Language="SK">Menu</Translation>
+      </Text>
+      <Text Id="s_passwordDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Password</Translation>
+        <Translation Language="SK">Heslo</Translation>
+      </Text>
+      <Text Id="s_serviceDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Service</Translation>
+        <Translation Language="SK">Servis</Translation>
+      </Text>
+      <Text Id="s_langDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Language</Translation>
+        <Translation Language="SK">Jazyk</Translation>
+      </Text>
+      <Text Id="s_modeIODlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Mode IO</Translation>
+        <Translation Language="SK">Režim IO</Translation>
+      </Text>
+      <Text Id="s_exserviceDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">ExService</Translation>
+        <Translation Language="SK">ExServis</Translation>
+      </Text>
+      <Text Id="s_burnProcDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Burning process</Translation>
+        <Translation Language="SK">Proces horenia</Translation>
+      </Text>
+      <Text Id="s_pflapDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Primary Flap</Translation>
+        <Translation Language="SK">Primárna klapka</Translation>
+      </Text>
+      <Text Id="s_sflapDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Secondary Flap</Translation>
+        <Translation Language="SK">Sekundárna klapka</Translation>
+      </Text>
+      <Text Id="s_systemDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">System</Translation>
+        <Translation Language="SK">Systém</Translation>
+      </Text>
+      <Text Id="s_modeDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Mode</Translation>
+        <Translation Language="SK">Režim</Translation>
+      </Text>
+      <Text Id="s_accumDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Accumulation tank</Translation>
+        <Translation Language="SK" Alignment="Center">Akumulačná nádrž</Translation>
+      </Text>
+      <Text Id="s_boilerDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Boiler</Translation>
+        <Translation Language="SK">Bojler</Translation>
+      </Text>
+      <Text Id="s_energyDlg" Alignment="Center" TypographyId="Text30_Blold">
+        <Translation Language="GB">Measure energy</Translation>
+        <Translation Language="SK">Meranie energie</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="MenuButtons">
+      <Text Id="s_menuBtn" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">MENU</Translation>
+        <Translation Language="SK">MENU</Translation>
+      </Text>
+      <Text Id="s_manualBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Manual</Translation>
+        <Translation Language="SK">Manual</Translation>
+      </Text>
+      <Text Id="s_dateBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Date</Translation>
+        <Translation Language="SK">Dátum</Translation>
+      </Text>
+      <Text Id="s_timeBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Time</Translation>
+        <Translation Language="SK">Čas</Translation>
+      </Text>
+      <Text Id="s_infoBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Info</Translation>
+        <Translation Language="SK">Info</Translation>
+      </Text>
+      <Text Id="s_burnBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Burning</Translation>
+        <Translation Language="SK">Horenie</Translation>
+      </Text>
+      <Text Id="s_serviceBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Service</Translation>
+        <Translation Language="SK">Servis</Translation>
+      </Text>
+      <Text Id="s_langBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Language</Translation>
+        <Translation Language="SK">Jazyk</Translation>
+      </Text>
+      <Text Id="s_distribBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Distribution</Translation>
+        <Translation Language="SK">Distribúcia</Translation>
+      </Text>
+      <Text Id="s_modeIOBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Mode IO</Translation>
+        <Translation Language="SK">Režim IO</Translation>
+      </Text>
+      <Text Id="s_exchanBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Exchanger</Translation>
+        <Translation Language="SK">Výmeník</Translation>
+      </Text>
+      <Text Id="s_burnProcBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Burning&#10;process</Translation>
+        <Translation Language="SK">Proces&#10;horenia</Translation>
+      </Text>
+      <Text Id="s_pflapBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Primary &#10;Flap</Translation>
+        <Translation Language="SK">Primárna&#10;klapka</Translation>
+      </Text>
+      <Text Id="s_sflapBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Secondary&#10;Flap</Translation>
+        <Translation Language="SK">Sekundárna&#10;klapka</Translation>
+      </Text>
+      <Text Id="s_systemBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">System</Translation>
+        <Translation Language="SK">Systém</Translation>
+      </Text>
+      <Text Id="s_defaultBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Default</Translation>
+        <Translation Language="SK">Default</Translation>
+      </Text>
+      <Text Id="s_modeBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Mode</Translation>
+        <Translation Language="SK">Režim</Translation>
+      </Text>
+      <Text Id="s_accumBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Accumulation&#10;tank</Translation>
+        <Translation Language="SK">Akumulačná&#10;nádrž</Translation>
+      </Text>
+      <Text Id="s_boilerBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Boiler</Translation>
+        <Translation Language="SK">Bojler</Translation>
+      </Text>
+      <Text Id="s_energyBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Measure &#10;energy</Translation>
+        <Translation Language="SK">Meranie &#10;energie</Translation>
+      </Text>
+      <Text Id="s_clearAEngBtn" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">Reset&#10;energy</Translation>
+        <Translation Language="SK">Nulovanie&#10;energie</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="MainScreen">
+      <Text Id="t_panel_p1" Alignment="Left" TypographyId="Text20_Bold">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_pf" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_sf" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_p1" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_accEng" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="s_info" Alignment="Left" TypographyId="Text20_Bold">
+        <Translation Language="GB"></Translation>
+        <Translation Language="SK"></Translation>
+      </Text>
+      <Text Id="s_acc" Alignment="Left" TypographyId="Text20_Bold">
+        <Translation Language="GB">AKU</Translation>
+        <Translation Language="SK">ACC</Translation>
+      </Text>
+      <Text Id="v_rt_hw" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;°C</Translation>
+        <Translation Language="SK">&lt;value&gt;°C</Translation>
+      </Text>
+      <Text Id="v_accLevel" Alignment="Center" TypographyId="Text20_Bold">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+        <Translation Language="SK">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="v_sensor" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_pflap" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_sflap" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_pump1" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_timeClock" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_dateClock" Alignment="Left" TypographyId="Middle">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="s_btn_start" Alignment="Left" TypographyId="Text20_Bold">
+        <Translation Language="GB">      Start</Translation>
+        <Translation Language="SK">      Štart</Translation>
+      </Text>
+      <Text Id="s_btn_door" Alignment="Left" TypographyId="Text20_Bold">
+        <Translation Language="GB">       Door</Translation>
+        <Translation Language="SK">       Dvere</Translation>
+      </Text>
+      <Text Id="v_apower" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="t_debug" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_pumpVal" Alignment="Center" TypographyId="Middle">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="v_rtf" Alignment="Center" TypographyId="Middle">
+        <Translation Language="GB">&lt;value&gt;°C</Translation>
+        <Translation Language="SK">&lt;value&gt;°C</Translation>
+      </Text>
+      <Text Id="s_noBtn" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">    No</Translation>
+        <Translation Language="SK">    Nie</Translation>
+      </Text>
+      <Text Id="s_yesBtn" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">    Yes</Translation>
+        <Translation Language="SK">    Ano</Translation>
+      </Text>
+      <Text Id="T_COMBOBOX_SELECTED_TEXT" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Sel</Translation>
+        <Translation Language="SK">Sel</Translation>
+      </Text>
+      <Text Id="T_COMBOBOX_ITEM_TEXT" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Item</Translation>
+        <Translation Language="SK">Item</Translation>
+      </Text>
+      <Text Id="__SingleUse_0J28" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB"></Translation>
+        <Translation Language="SK">Item1</Translation>
+      </Text>
+      <Text Id="__SingleUse_C70J" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">-</Translation>
+        <Translation Language="SK">New Text</Translation>
+      </Text>
+      <Text Id="EnteredText" Alignment="Left" TypographyId="Text30_Blold">
+        <Translation Language="GB">&lt;placeholder&gt;</Translation>
+        <Translation Language="SK">&lt;placeholder&gt;</Translation>
+      </Text>
+      <Text Id="v_numPad" Alignment="Left" TypographyId="Text30_Blold">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="s_pass0000" Alignment="Left" TypographyId="Text60">
+        <Translation Language="GB">0000</Translation>
+        <Translation Language="SK">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_UWFY" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="SK">New Text</Translation>
+      </Text>
+      <Text Id="im_name" Alignment="Left" TypographyId="list_item_name">
+        <Translation Language="GB">Name</Translation>
+        <Translation Language="SK">Meno</Translation>
+      </Text>
+      <Text Id="im_value" Alignment="Right" TypographyId="list_item_value">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="im_unit" Alignment="Left" TypographyId="list_item_unit">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="SK">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="Verdana.TTF" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="áéíóúýčďľňšťžÁÉÍÓÚÝČĎĽŇŠŤŽ" WildcardCharacterRanges="0x0020-0x01FF" />
+    <Typography Id="Large" Font="Verdana.TTF" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Small" Font="Verdana.TTF" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="Middle" Font="Verdana.TTF" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="Text30_Blold" Font="Verdanab.TTF" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="Text60" Font="Trebucbd.ttf" Size="60" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="Text20_Bold" Font="Verdanab.TTF" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="áéíóúýčďľňšťžÁÉÍÓÚÝČĎĽŇŠŤŽ" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="list_item_name" Font="Verdana.TTF" Size="22" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="list_item_value" Font="Verdanab.TTF" Size="22" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="list_item_unit" Font="Verdanab.TTF" Size="22" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="list_header" Font="Verdanab.TTF" Size="22" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="NumPad" Font="Verdanab.TTF" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="combobox_item" Font="Verdanab.TTF" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+    <Typography Id="Text24_Bold" Font="Verdanab.TTF" Size="24" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x0020-0x00FF" />
+  </Typographies>
+</TextDatabase>

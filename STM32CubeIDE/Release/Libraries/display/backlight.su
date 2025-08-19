@@ -1,0 +1,4 @@
+../Libraries/display/backlight.c:37:6:backlight_init	8	static,ignoring_inline_asm
+../Libraries/display/backlight.c:72:6:backlight_on	0	static
+../Libraries/display/backlight.c:84:6:backlight_off	0	static
+../Libraries/display/backlight.c:96:6:backlight_pwm	0	static

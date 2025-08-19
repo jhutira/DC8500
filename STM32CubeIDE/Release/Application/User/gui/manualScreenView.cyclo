@@ -1,0 +1,32 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:19:6:virtual void manualScreenView::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/manualscreen_screen/manualScreenView.hpp:15:13:manualScreenView::~manualScreenView()	1
+../../TouchGFX/gui/include/gui/manualscreen_screen/manualScreenView.hpp:15:13:virtual manualScreenView::~manualScreenView()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:3:1:manualScreenView::manualScreenView()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:24:6:void manualScreenView::initOutput(uint8_t, uint8_t)	21
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:146:6:virtual void manualScreenView::rbOnP1_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:153:6:virtual void manualScreenView::rbOffP1_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:160:6:virtual void manualScreenView::rbAutoP1_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:170:6:virtual void manualScreenView::rbOnP2_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:177:6:virtual void manualScreenView::rbOffP2_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:184:6:virtual void manualScreenView::rbAutoP2_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:194:6:virtual void manualScreenView::rbOnY1_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:201:6:virtual void manualScreenView::rbOffY1_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:208:6:virtual void manualScreenView::rbAutoY1_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:218:6:virtual void manualScreenView::rbOnY2_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:225:6:virtual void manualScreenView::rbOffY2_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:232:6:virtual void manualScreenView::rbAutoY2_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:242:6:virtual void manualScreenView::rbOnY3_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:249:6:virtual void manualScreenView::rbOffY3_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:256:6:virtual void manualScreenView::rbAutoY3_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:8:6:virtual void manualScreenView::setupScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:64:6:void manualScreenView::initPFlap(uint8_t, uint8_t)	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:94:6:virtual void manualScreenView::pfUpBtn_clicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:102:6:virtual void manualScreenView::pfDownBtn_clicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:110:6:virtual void manualScreenView::pfAutoBtn_clicked()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:77:6:void manualScreenView::initSFlap(uint8_t, uint8_t)	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:120:6:virtual void manualScreenView::sfUpBtn_clicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:128:6:virtual void manualScreenView::sfDownBtn_clicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/manualscreen_screen/manualScreenView.cpp:136:6:virtual void manualScreenView::sfAutoBtn_clicked()	1

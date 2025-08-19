@@ -1,0 +1,4 @@
+../Libraries/display/backlight.c:37:6:backlight_init	1
+../Libraries/display/backlight.c:72:6:backlight_on	1
+../Libraries/display/backlight.c:84:6:backlight_off	1
+../Libraries/display/backlight.c:96:6:backlight_pwm	1

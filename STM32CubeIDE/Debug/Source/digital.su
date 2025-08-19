@@ -1,0 +1,7 @@
+../Source/digital.c:47:6:digital_init	8	static
+../Source/digital.c:84:6:digital_setDefault	16	static
+../Source/digital.c:109:6:digital_loadSettings	16	static
+../Source/digital.c:131:6:digital_saveSettings	16	static
+../Source/digital.c:153:6:digital_saveOneOutputMode	16	static
+../Source/digital.c:165:6:digital_saveOneInputMode	16	static
+../Source/digital.c:179:6:digital_install	8	static

@@ -1,0 +1,171 @@
+#ifndef __UART_LOG_H
+#define __UART_LOG_H
+
+#include "cmsis_os2.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void uart_log_init(void);
+void uart_log_printf(const char *fmt, ...);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __UART_LOG_H */
+
+
+
+#include "uart_log.h"
+#include "main.h"
+#include "usart.h"
+#include <stdio.h>
+#include <stdarg.h>
+#include <string.h>
+
+#define LOG_QUEUE_LENGTH 2
+#define LOG_LINE_MAX_LEN 64
+
+typedef struct {
+    char text[LOG_LINE_MAX_LEN];
+} log_msg_t;
+
+static osMessageQueueId_t logQueueHandle;
+static osThreadId_t logTaskHandle;
+
+extern UART_HandleTypeDef huart1;  // Pre HAL_UART_Transmit
+extern uint32_t debug32;
+
+/* UART Log Task */
+static void uart_log_task(void *argument)
+{
+    log_msg_t msg;
+    for (;;) {
+        if (osMessageQueueGet(logQueueHandle, &msg, NULL, osWaitForever) == osOK) {
+            HAL_UART_Transmit(&huart1, (uint8_t *)msg.text, strnlen(msg.text, LOG_LINE_MAX_LEN), HAL_MAX_DELAY);
+        }
+        debug32 += 10;
+    }
+}
+
+/* Init Function */
+void uart_log_init(void)
+{
+    /* Create queue */
+    logQueueHandle = osMessageQueueNew(LOG_QUEUE_LENGTH, sizeof(log_msg_t), NULL);
+    if (logQueueHandle == NULL) {
+        debug32 = 1000; // Queue error
+        Error_Handler();
+    }
+
+    /* Create task */
+    const osThreadAttr_t logTaskAttr = {
+        .name = "uartLogTask",
+        .priority = (osPriority_t) osPriorityNormal,
+        .stack_size = 512
+    };
+
+    logTaskHandle = osThreadNew(uart_log_task, NULL, &logTaskAttr);
+    if (logTaskHandle == NULL) {
+        debug32 = 2000; // Task error
+        Error_Handler();
+    }
+
+    debug32 = 1; // OK
+}
+
+/* Logging function */
+void uart_log_printf(const char *fmt, ...)
+{
+    log_msg_t msg;
+    va_list args;
+    va_start(args, fmt);
+    vsnprintf(msg.text, LOG_LINE_MAX_LEN, fmt, args);
+    va_end(args);
+
+    osStatus_t status = osMessageQueuePut(logQueueHandle, &msg, 0, 0);
+    if (status != osOK) {
+        // Optional: drop or signal error
+    }
+}
+
+
+Pridaj volanie uart_log_init() do FreeRTOS inicializácie
+
+Do MX_FREERTOS_Init() (v súbore freertos.c) pridaj:
+
+#include "uart_log.h"
+
+void MX_FREERTOS_Init(void)
+{
+    // ... tvoje existujúce init kódy ...
+
+    uart_log_init(); // <-- pridaj sem
+}
+
+
+Odporúčania a vylepšenia:
+1. Over si prioritu osPriorityNormal
+
+    Ak všetky úlohy bežia s osPriorityNormal, môžu sa správať FIFO (v poradí plánovania), a úloha so slučkou sa môže správať „dominantne“ (napr. GUI task).
+
+    Odporúčanie:
+
+        GUI task nechaj na osPriorityNormal
+
+        Komunikačné (časovo citlivé) daj vyššie, napr.:
+
+.priority = osPriorityAboveNormal   // pre modbus_Task
+.priority = osPriorityNormal        // pre GUI
+.priority = osPriorityBelowNormal   // pre default task
+
+2. Zváž stack veľkosti
+
+Aktuálne:
+
+    defaultTask: 512 B → minimalistické, OK pre jednoduchú úlohu.
+
+    GUI_Task: 32 kB → veľmi veľké, môžeš zredukovať podľa potreby TouchGFX (obvykle 4096 až 8192 bajtov).
+
+    modbus_Task: 2048 B → OK pre spracovanie Modbus.
+
+📌 Odporúčaná kontrola spotreby stacku:
+Použi uxTaskGetStackHighWaterMark() vo FreeRTOS (alebo CMSIS wrapper) a zistíš „stack margin“ v behu.
+💡 BONUS – Prehľadný zápis do freertos.c:
+
+osThreadId_t defaultTaskHandle;
+const osThreadAttr_t defaultTask_attributes = {
+  .name = "defaultTask",
+  .priority = osPriorityBelowNormal,
+  .stack_size = 512
+};
+
+osThreadId_t GUI_TaskHandle;
+const osThreadAttr_t GUI_Task_attributes = {
+  .name = "GUI_Task",
+  .priority = osPriorityNormal,
+  .stack_size = 8192
+};
+
+osThreadId_t modbus_TaskHandle;
+const osThreadAttr_t modbus_Task_attributes = {
+  .name = "modbus_Task",
+  .priority = osPriorityAboveNormal,
+  .stack_size = 2048
+};
+
+✅ Záver
+
+Áno, tvoj zápis je funkčne správny. Ak však chceš:
+
+    optimalizovať pamäť (stack),
+
+    zlepšiť responzivitu systému (prioritizácia),
+
+    a udržať stabilitu,
+
+…odporúčam upraviť priority a overiť real-time využitie stacku.
+
+Ak chceš, viem ti doplniť kód aj s diagnostikou vyťaženia stacku a task monitoringom.

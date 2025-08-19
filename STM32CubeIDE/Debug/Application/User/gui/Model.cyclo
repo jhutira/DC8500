@@ -1,0 +1,38 @@
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:26:1:Model::Model()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:31:6:void Model::tick()	4
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:64:6:void Model::GetClock(datetime_st*)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:70:6:void Model::SetTime(uint8_t, uint8_t, uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:75:6:void Model::SetDate(uint8_t, uint8_t, uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:80:9:uint8_t Model::GetOutputValue(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:85:9:uint8_t Model::GetOutputMode(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:90:6:void Model::SetOutputMode(uint8_t, uint8_t)	4
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:102:6:void Model::SetOutputInvMode(uint8_t, uint8_t)	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:111:9:uint8_t Model::GetDInStatus(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:116:9:uint8_t Model::GetDInMode(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:121:6:void Model::SetDInMode(uint8_t, uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:128:8:ain_st Model::GetAIn(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:134:11:lambda_st Model::GetLS()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:140:13:contPump_st Model::GetCModeP1()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:145:6:void Model::SetCModeP1(contPump_st)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:156:9:uint8_t Model::GetFlapMode(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:161:9:uint8_t Model::GetFlapPos(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:166:6:void Model::SetFlapModeAndPos(uint8_t, uint8_t, uint8_t)	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:175:6:void Model::saveLanguageId(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:181:9:uint8_t Model::getDistrib()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:186:6:void Model::setDistrib(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:192:17:burn_profile_st Model::getBurnProfile()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:197:6:void Model::setBurnProfile(burn_profile_st)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:205:6:void Model::setBPrqFlueTemp(uint16_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:212:14:waterExch_st Model::getWaterExch()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:217:6:void Model::setWaterExch(waterExch_st)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:224:15:burnPhases_st Model::getBurnPhases()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:229:6:void Model::setBurnPhases(burnPhases_st)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:236:14:pidConfig_st Model::getFlapPidConfig(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:241:6:void Model::setFlapPidConfig(uint8_t, pidConfig_st)	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:255:6:void Model::setDefaultSettings()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:261:9:uint8_t Model::getRegScheme()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:266:6:void Model::setRegScheme(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:273:9:door_st Model::getFireplaceDoor()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:278:6:void Model::setFireplaceDoor(door_st)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:287:6:void Model::setSoundMute(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/model/Model.cpp:293:6:void Model::setSoundSett(sound_sett_st)	1

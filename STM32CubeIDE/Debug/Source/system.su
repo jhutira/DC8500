@@ -1,0 +1,5 @@
+../Source/system.c:52:6:system_init	24	static
+../Source/system.c:76:6:system_setDefault	8	static
+../Source/system.c:120:6:system_loadData	8	static
+../Source/system.c:158:6:system_saveData	8	static
+../Source/system.c:193:6:system_checkErrWarnState	16	static

@@ -1,0 +1,13 @@
+../Libraries/eeprom/eeprom.c:37:9:eem_writePage	56	dynamic
+../Libraries/eeprom/eeprom.c:67:9:eem_fillPage	56	dynamic
+../Libraries/eeprom/eeprom.c:99:9:eem_writeBlock	24	static
+../Libraries/eeprom/eeprom.c:132:9:eem_readBlock	32	static
+../Libraries/eeprom/eeprom.c:161:9:eem_fillBlock	24	static
+../Libraries/eeprom/eeprom.c:193:9:eem_writeInt8	32	static
+../Libraries/eeprom/eeprom.c:222:9:eem_readInt8	32	static
+../Libraries/eeprom/eeprom.c:250:9:eem_readInt16	24	static
+../Libraries/eeprom/eeprom.c:267:9:eem_writeInt16	24	static
+../Libraries/eeprom/eeprom.c:284:9:eem_readInt32	24	static
+../Libraries/eeprom/eeprom.c:301:9:eem_writeInt32	24	static
+../Libraries/eeprom/eeprom.c:318:9:eem_readFloat	24	static
+../Libraries/eeprom/eeprom.c:335:9:eem_writeFloat	24	static

@@ -1,0 +1,9 @@
+../Libraries/modbus/modbus.c:97:6:modbus_init	16	static
+../Libraries/modbus/modbus.c:150:9:modbus_decode_mbap_header	8	static
+../Libraries/modbus/modbus.c:197:6:modbus_insert_mbap_header	0	static
+../Libraries/modbus/modbus.c:326:10:modbus_crc16	16	static
+../Libraries/modbus/modbus.c:216:6:modbus_send_message	16	static
+../Libraries/modbus/modbus.c:247:9:modbus_read_response	16	static
+../Libraries/modbus/modbus.c:351:9:modbus_read_holding_registers	24	static
+../Libraries/modbus/modbus.c:392:9:modbus_write_single_register	16	static
+../Libraries/modbus/modbus.c:422:9:modbus_write_multiple_registers	24	static

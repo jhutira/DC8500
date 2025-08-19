@@ -1,0 +1,19 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<exchanScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenView.cpp:66:6:virtual void exchanScreenView::tearDownScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = exchanScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	12	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = exchanScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<exchanScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:146:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenView.cpp:88:6:void exchanScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	24	static
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemNumberCont.hpp:14:13:MenuList_ItemNumberCont::~MenuList_ItemNumberCont()	8	static
+../../TouchGFX/gui/include/gui/exchanscreen_screen/exchanScreenView.hpp:14:13:exchanScreenView::~exchanScreenView()	16	static
+../../TouchGFX/gui/include/gui/exchanscreen_screen/exchanScreenView.hpp:14:13:virtual exchanScreenView::~exchanScreenView()	8	static
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemNumberCont.hpp:14:13:virtual MenuList_ItemNumberCont::~MenuList_ItemNumberCont()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:58:10:bool touchgfx::ToggleButton::getState() const	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenView.cpp:124:6:virtual void exchanScreenView::okBtn_clicked()	40	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenView.cpp:5:1:exchanScreenView::exchanScreenView()	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenView.cpp:71:6:void exchanScreenView::initExchangerValues(waterExch_st)	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/exchanscreen_screen/exchanScreenView.cpp:11:6:virtual void exchanScreenView::setupScreen()	40	static

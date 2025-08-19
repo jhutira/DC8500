@@ -1,0 +1,82 @@
+3. Vytvoření funkce pro zápis do flash
+
+Vytvořte funkci, která zapíše binární data do externí flash:
+
+int WriteToFlash(uint8_t* data, uint32_t address, uint32_t size) {
+    QSPI_CommandTypeDef sCommand;
+    sCommand.Instruction = PAGE_PROGRAM_CMD;  // Flash zápisový příkaz
+    sCommand.Address = address;
+    sCommand.AddressSize = QSPI_ADDRESS_24_BITS;
+    sCommand.DataMode = QSPI_DATA_1_LINE;
+    sCommand.DummyCycles = 0;
+    sCommand.NbData = size;
+
+    if (HAL_QSPI_Command(&hqspi, &sCommand, HAL_MAX_DELAY) != HAL_OK)
+        return HAL_ERROR;
+
+    return HAL_QSPI_Transmit(&hqspi, data, HAL_MAX_DELAY);
+}
+
+Tuto funkci použijete k nahrání binárních dat do specifické části paměti.
+
+
+4. Nahrání binárního souboru do flash
+
+Pro nahrání dat do flash můžete použít buď přímý programátor (např. ST-Link) nebo vlastní firmware běžící na STM32.
+a) Použití STM32CubeProgrammer
+
+    Export dat:
+        TouchGFX Designer generuje soubor flash.bin, který můžete nahrát přímo do externí flash.
+    Připojte ST-Link:
+        Ujistěte se, že ST-Link má přístup k MCU, a tím i k externí flash.
+    STM32CubeProgrammer:
+        Otevřete STM32CubeProgrammer.
+        Připojte se k cílovému zařízení.
+        Přejděte do sekce External Memory Loader a vyberte odpovídající loader pro vaši flash (např. MX25LM51245G).
+        Vyberte binární soubor flash.bin a nahrávejte jej do externí flash.
+
+b) Použití vlastního firmware
+
+    Zahrňte flash.bin do projektu jako binární zdroj:
+        Přidejte binární soubor do projektu ve STM32CubeIDE (pravým klikem na projekt → Add File).
+    Použijte funkci WriteToFlash() pro nahrání dat na správnou adresu:
+
+extern uint8_t flash_data[]; // Přidat symbol binárního souboru
+uint32_t flash_data_size = sizeof(flash_data);
+
+WriteToFlash(flash_data, FLASH_START_ADDRESS, flash_data_size);
+
+
+
+5. Ověření dat
+
+Po nahrání dat do flash je důležité ověřit jejich správnost:
+
+    Použijte funkci pro čtení flash a zkontrolujte obsah:
+
+    int ReadFromFlash(uint8_t* buffer, uint32_t address, uint32_t size) {
+        QSPI_CommandTypeDef sCommand;
+        sCommand.Instruction = READ_DATA_CMD;  // Příkaz pro čtení
+        sCommand.Address = address;
+        sCommand.AddressSize = QSPI_ADDRESS_24_BITS;
+        sCommand.DummyCycles = DUMMY_CYCLES;
+        sCommand.NbData = size;
+
+        if (HAL_QSPI_Command(&hqspi, &sCommand, HAL_MAX_DELAY) != HAL_OK)
+            return HAL_ERROR;
+
+        return HAL_QSPI_Receive(&hqspi, buffer, HAL_MAX_DELAY);
+    }
+
+    Zkontrolujte obsah bufferu, zda odpovídá původnímu souboru.
+
+6. Konfigurace TouchGFX pro externí flash
+
+    TouchGFX automaticky načte zdroje z externí flash, pokud je správně nastavena v generovaném kódu.
+    Ve touchgfx_hal.cpp implementujte funkce pro čtení z flash:
+
+void* touchgfx::HAL::getFrameBuffer() {
+    static uint8_t framebuffer[FRAME_BUFFER_SIZE];
+    return framebuffer;
+}
+

@@ -1,0 +1,66 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:72:18:virtual void touchgfx::Application::changeToStartScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:91:18:virtual void touchgfx::Application::appSwitchScreen(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:104:18:virtual void touchgfx::Application::requestRedraw(touchgfx::Rect&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:72:18:virtual void touchgfx::Transition::tearDown()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:80:18:virtual void touchgfx::Transition::init()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:100:18:virtual void touchgfx::Transition::setScreenContainer(touchgfx::Container&)	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:43:7:touchgfx::MVPApplication::~MVPApplication()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:touchgfx::Callback<FrontendApplicationBase>::~Callback()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:16:13:FrontendApplicationBase::~FrontendApplicationBase()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:18:18:virtual void FrontendApplicationBase::changeToStartScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:35:18:virtual void touchgfx::NoTransition::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:31:7:touchgfx::NoTransition::~NoTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:449:18:void touchgfx::Callback<dest_type, void, void, void>::execute() [with dest_type = FrontendApplicationBase]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:459:18:bool touchgfx::Callback<dest_type, void, void, void>::isValid() const [with dest_type = FrontendApplicationBase]	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:31:7:virtual touchgfx::NoTransition::~NoTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:virtual touchgfx::Callback<FrontendApplicationBase>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:43:7:virtual touchgfx::MVPApplication::~MVPApplication()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:16:13:virtual FrontendApplicationBase::~FrontendApplicationBase()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:89:18:virtual void touchgfx::Transition::invalidate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:59:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:61:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:82:6:void FrontendApplicationBase::gotomainScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:95:6:void FrontendApplicationBase::gotomenuScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:108:6:void FrontendApplicationBase::gototimeScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:121:6:void FrontendApplicationBase::gotodateScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:134:6:void FrontendApplicationBase::gotoinfoScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:147:6:void FrontendApplicationBase::gotopasswordScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:160:6:void FrontendApplicationBase::gotoburnScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:173:6:void FrontendApplicationBase::gotomanualScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:186:6:void FrontendApplicationBase::gotoserviceScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:199:6:void FrontendApplicationBase::gotolangScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:212:6:void FrontendApplicationBase::gotodistribScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:225:6:void FrontendApplicationBase::gotomodeIOScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:238:6:void FrontendApplicationBase::gotoburnProcScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:251:6:void FrontendApplicationBase::gotoexchanScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:264:6:void FrontendApplicationBase::gotosystemScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:277:6:void FrontendApplicationBase::gotopflapScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:290:6:void FrontendApplicationBase::gotosflapScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:303:6:void FrontendApplicationBase::gotoboilerScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:316:6:void FrontendApplicationBase::gotoaccumScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:329:6:void FrontendApplicationBase::gotomodeScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:342:6:void FrontendApplicationBase::gotoexserviceScreenScreenNoTransition()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:355:6:void FrontendApplicationBase::gotoenergyScreenScreenNoTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp:135:8:T& touchgfx::AbstractPartition::at(uint16_t) [with T = touchgfx::NoTransition]	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:361:6:void FrontendApplicationBase::gotoenergyScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:348:6:void FrontendApplicationBase::gotoexserviceScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:335:6:void FrontendApplicationBase::gotomodeScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:322:6:void FrontendApplicationBase::gotoaccumScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:309:6:void FrontendApplicationBase::gotoboilerScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:296:6:void FrontendApplicationBase::gotosflapScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:283:6:void FrontendApplicationBase::gotopflapScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:270:6:void FrontendApplicationBase::gotosystemScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:257:6:void FrontendApplicationBase::gotoexchanScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:244:6:void FrontendApplicationBase::gotoburnProcScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:231:6:void FrontendApplicationBase::gotomodeIOScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:218:6:void FrontendApplicationBase::gotodistribScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:205:6:void FrontendApplicationBase::gotolangScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:192:6:void FrontendApplicationBase::gotoserviceScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:179:6:void FrontendApplicationBase::gotomanualScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:166:6:void FrontendApplicationBase::gotoburnScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:153:6:void FrontendApplicationBase::gotopasswordScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:140:6:void FrontendApplicationBase::gotoinfoScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:127:6:void FrontendApplicationBase::gotodateScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:114:6:void FrontendApplicationBase::gototimeScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:101:6:void FrontendApplicationBase::gotomenuScreenScreenNoTransitionImpl()	7
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:88:6:void FrontendApplicationBase::gotomainScreenScreenNoTransitionImpl()	7

@@ -1,0 +1,5921 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "mainScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "RelativeFilename": "rec\\main_screen_bg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "i_sch",
+            "X": 2,
+            "Y": 65,
+            "Width": 795,
+            "Height": 355,
+            "LockPosition": true,
+            "RelativeFilename": "sch\\m_sch2.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_pump3",
+            "X": 614,
+            "Y": 351,
+            "Width": 60,
+            "Height": 61,
+            "CustomContainerDefinitionName": "PumpCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_pump2",
+            "X": 547,
+            "Y": 108,
+            "Width": 60,
+            "Height": 61,
+            "CustomContainerDefinitionName": "PumpCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_pump1",
+            "X": 345,
+            "Y": 351,
+            "Width": 60,
+            "Height": 61,
+            "CustomContainerDefinitionName": "PumpCont"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Button",
+            "Name": "menuBtn",
+            "X": 1,
+            "Y": 1,
+            "Width": 115,
+            "Height": 56,
+            "Pressed": "buttons\\menu_btn_pressed.png",
+            "Released": "buttons\\menu_btn.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "p_clock",
+            "X": 683,
+            "Y": 1,
+            "Width": 115,
+            "Height": 56,
+            "RelativeFilename": "bar\\info_rec115.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_timeClock",
+            "X": 694,
+            "Y": 6,
+            "Width": 98,
+            "Height": 24,
+            "TextId": "v_timeClock",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_dateClock",
+            "X": 697,
+            "Y": 31,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "v_dateClock",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 8,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 12
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "p_info",
+            "X": 119,
+            "Y": 1,
+            "Width": 561,
+            "Height": 56,
+            "RelativeFilename": "bar\\info_rec561.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "i_statusBar",
+            "X": 1,
+            "Y": 423,
+            "Width": 800,
+            "Height": 55,
+            "RelativeFilename": "bar\\status_bar.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_debug",
+            "X": 520,
+            "Y": 437,
+            "Width": 160,
+            "Height": 26,
+            "TextId": "t_debug",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "i_sflap",
+            "X": 124,
+            "Y": 453,
+            "Width": 55,
+            "Height": 20,
+            "RelativeFilename": "rec\\airflap_sec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "i_pflap",
+            "X": 24,
+            "Y": 453,
+            "Width": 55,
+            "Height": 20,
+            "RelativeFilename": "rec\\airflap_prim.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_pflap",
+            "X": 11,
+            "Y": 425,
+            "Width": 80,
+            "Height": 22,
+            "TextId": "v_pflap",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_sflap",
+            "X": 111,
+            "Y": 425,
+            "Width": 80,
+            "Height": 22,
+            "TextId": "v_sflap",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "Slider",
+            "Name": "profileSld",
+            "X": 15,
+            "Y": 128,
+            "Width": 34,
+            "Height": 232,
+            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_vertical_thin_track_small.png",
+            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_vertical_thin_filler_small.png",
+            "Indicator": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_rounded_light.png",
+            "BackgroundX": 15,
+            "BackgroundY": 11,
+            "IndicatorPos": 2,
+            "IndicatorMax": 200,
+            "ValueMax": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_accLevel",
+            "X": 433,
+            "Y": 290,
+            "Width": 96,
+            "Height": 24,
+            "TextId": "v_accLevel",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_info",
+            "X": 130,
+            "Y": 14,
+            "Width": 540,
+            "Height": 27,
+            "TextId": "s_bp0_stop",
+            "TextRotation": "0",
+            "Color": {
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_accEng",
+            "X": 361,
+            "Y": 425,
+            "Width": 160,
+            "Height": 26,
+            "TextId": "v_accEng",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 29,
+              "Green": 4,
+              "Blue": 214
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "soundBtn",
+            "X": 725,
+            "Y": 424,
+            "Width": 75,
+            "Height": 54,
+            "Pressed": "buttons\\mute_btn.png",
+            "Released": "buttons\\sound_btn.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "doorBtn",
+            "X": 207,
+            "Y": 423,
+            "Width": 130,
+            "Height": 56,
+            "Pressed": "buttons\\door_btn_pressed.png",
+            "Released": "buttons\\door_btn.png",
+            "TextId": "s_btn_door",
+            "ReleasedColor": {
+              "Red": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_rTF",
+            "X": 10,
+            "Y": 363,
+            "Width": 46,
+            "Height": 17,
+            "TextId": "v_rtf",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen8",
+            "X": 690,
+            "Y": 317,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen7",
+            "X": 426,
+            "Y": 102,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen6",
+            "X": 655,
+            "Y": 182,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen5",
+            "X": 433,
+            "Y": 250,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen4",
+            "X": 116,
+            "Y": 70,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen3",
+            "X": 238,
+            "Y": 143,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen2",
+            "X": 433,
+            "Y": 330,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen1",
+            "X": 238,
+            "Y": 85,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_senO2",
+            "X": 13,
+            "Y": 70,
+            "Width": 96,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_flow",
+            "X": 13,
+            "Y": 103,
+            "Width": 96,
+            "Height": 26,
+            "Visible": false,
+            "CustomContainerDefinitionName": "SensorCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_valve1",
+            "X": 610,
+            "Y": 93,
+            "Width": 60,
+            "Height": 63,
+            "CustomContainerDefinitionName": "ValveMCont"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "p_sen9",
+            "X": 405,
+            "Y": 70,
+            "Width": 120,
+            "Height": 26,
+            "CustomContainerDefinitionName": "SensorExCont"
+          },
+          {
+            "Type": "Image",
+            "Name": "i_man",
+            "X": 694,
+            "Y": 66,
+            "Width": 100,
+            "Height": 24,
+            "RelativeFilename": "icon\\ManIcon.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "i_err",
+            "X": 589,
+            "Y": 66,
+            "Width": 100,
+            "Height": 24,
+            "RelativeFilename": "icon\\ErrIcon.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_apower",
+            "X": 110,
+            "Y": 230,
+            "Width": 105,
+            "Height": 24,
+            "TextId": "v_apower",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 247,
+              "Blue": 247
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "menuBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menuBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "doorBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "doorBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "doorBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "soundBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "soundBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "soundBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "profileSld_itt",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "profileSld"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "profileSldChangeVal"
+            }
+          },
+          {
+            "InteractionName": "profileSld_itt2",
+            "Trigger": {
+              "Type": "TriggerSliderValueConfirmed",
+              "TriggerComponent": "profileSld"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "profileSldChangeConf"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "menuScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "burnBtn",
+            "X": 26,
+            "Y": 220,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_burnBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "accumBtn",
+            "X": 26,
+            "Y": 340,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_accumBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "boilerBtn",
+            "X": 218,
+            "Y": 340,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_boilerBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "distribBtn",
+            "X": 218,
+            "Y": 220,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_distribBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "manualBtn",
+            "X": 600,
+            "Y": 100,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_manualBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "serviceBtn",
+            "X": 600,
+            "Y": 340,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_serviceBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Button",
+            "Name": "homeBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\home_btn_pressed56.png",
+            "Released": "buttons\\home_btn56.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_menuDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "timeBtn",
+            "X": 26,
+            "Y": 100,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_timeBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "dateBtn",
+            "X": 218,
+            "Y": 100,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_dateBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "infoBtn",
+            "X": 410,
+            "Y": 100,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_infoBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "homeBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "homeBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "mainScreen"
+            }
+          },
+          {
+            "InteractionName": "timeBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "timeBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "timeScreen"
+            }
+          },
+          {
+            "InteractionName": "dateBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "dateBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "dateScreen"
+            }
+          },
+          {
+            "InteractionName": "infoBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "infoBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "infoScreen"
+            }
+          },
+          {
+            "InteractionName": "manualBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "manualBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "manualScreen"
+            }
+          },
+          {
+            "InteractionName": "burnBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "burnBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "burnScreen"
+            }
+          },
+          {
+            "InteractionName": "serviceBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "serviceBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "serviceBtnClicked"
+            }
+          },
+          {
+            "InteractionName": "serviceBtn_itt2",
+            "Trigger": {
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "passwordScreen"
+            }
+          },
+          {
+            "InteractionName": "serviceBtn_itt3",
+            "Trigger": {
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "exserviceScreen"
+            }
+          },
+          {
+            "InteractionName": "distribBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "distribBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "distribScreen"
+            }
+          },
+          {
+            "InteractionName": "accumBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "accumBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "accumScreen"
+            }
+          },
+          {
+            "InteractionName": "boilerBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "boilerBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "boilerScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "timeScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "mDownBtn",
+            "X": 520,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\down_btn_pressed80.png",
+            "Released": "buttons\\down_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "mUpBtn",
+            "X": 430,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\up_btn_pressed80.png",
+            "Released": "buttons\\up_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "hDownBtn",
+            "X": 280,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\down_btn_pressed80.png",
+            "Released": "buttons\\down_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_timeDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "timeValue",
+            "X": 313,
+            "Y": 120,
+            "Width": 165,
+            "Height": 75,
+            "TextId": "v_timeDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 212
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "hUpBtn",
+            "X": 190,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\up_btn_pressed80.png",
+            "Released": "buttons\\up_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "hUpBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "hUpBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "hUpBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "hDownBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "hDownBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "hDownBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "mUpBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mUpBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "mUpBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "mDownBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mDownBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "mDownBtn_clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "dateScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "mDownBtn",
+            "X": 410,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\down_btn_pressed80.png",
+            "Released": "buttons\\down_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "mUpBtn",
+            "X": 320,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\up_btn_pressed80.png",
+            "Released": "buttons\\up_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "yDownBtn",
+            "X": 640,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\down_btn_pressed80.png",
+            "Released": "buttons\\down_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "yUpBtn",
+            "X": 550,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\up_btn_pressed80.png",
+            "Released": "buttons\\up_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "dDownBtn",
+            "X": 180,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\down_btn_pressed80.png",
+            "Released": "buttons\\down_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_dateDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dateValue",
+            "X": 240,
+            "Y": 120,
+            "Width": 340,
+            "Height": 75,
+            "TextId": "v_dateDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 212
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 11
+            }
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "dUpBtn",
+            "X": 90,
+            "Y": 230,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\up_btn_pressed80.png",
+            "Released": "buttons\\up_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "dUpBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "dUpBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "dUpBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "dDownBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "dDownBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "dDownBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "mUpBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mUpBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "mUpBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "mDownBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mDownBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "mDownBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "yUpBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "yUpBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "yUpBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "yDownBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "yDownBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "yDownBtn_"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "infoScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_infoDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "X": 10,
+            "Y": 175,
+            "Width": 780,
+            "Height": 295,
+            "Components": []
+          },
+          {
+            "Type": "Video",
+            "Name": "video1",
+            "X": 292,
+            "Y": 193,
+            "Width": 216,
+            "Height": 216,
+            "Visible": false,
+            "VideoFileName": "SampleVideo2_216x216.avi",
+            "AutoPlay": true,
+            "Loop": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "passwordScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "passwordLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_passwordDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "i_lock",
+            "X": 168,
+            "Y": 98,
+            "Width": 128,
+            "Height": 128,
+            "RelativeFilename": "rec\\log_in.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_pass",
+            "X": 162,
+            "Y": 240,
+            "Width": 140,
+            "Height": 61,
+            "TextId": "s_pass0000",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 252,
+              "Green": 252,
+              "Blue": 252
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "numPadCont",
+            "X": 471,
+            "Y": 83,
+            "Width": 310,
+            "Height": 362,
+            "CustomContainerDefinitionName": "NumPadCont"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "burnScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_burnDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 400,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsColor": {
+              "Red": 48,
+              "Green": 47,
+              "Blue": 47
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              },
+              {
+                "Type": "ModalWindow",
+                "Name": "questionDlg",
+                "Width": 480,
+                "Height": 300,
+                "Visible": false,
+                "FileName": "rec\\quest_dlg_cont_bg.png",
+                "ModalX": 160,
+                "ModalY": 115,
+                "ModalWidth": 480,
+                "ModalHeight": 250,
+                "Alpha": 150,
+                "Components": [
+                  {
+                    "Type": "CustomContainerInstance",
+                    "Name": "questionDlgCont",
+                    "Width": 480,
+                    "Height": 250,
+                    "CustomContainerDefinitionName": "QuestionDlgCont"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "manualScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Y": 1,
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "panel_Y3",
+            "X": 680,
+            "Y": 100,
+            "Width": 100,
+            "Height": 330,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "imgBg_y3",
+                "Width": 100,
+                "Height": 330,
+                "RelativeFilename": "rec\\panel_man.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "img_y3",
+                "X": 17,
+                "Y": 10,
+                "Width": 25,
+                "Height": 25,
+                "RelativeFilename": "rec\\pump_on.png"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbAuto_y3",
+                "X": 10,
+                "Y": 240,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\auto_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\auto_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\auto_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\auto_btn80.png",
+                "RadioButtonGroup": "rbg_y3"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOff_y3",
+                "X": 10,
+                "Y": 155,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\off_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\off_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\off_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\off_btn80.png",
+                "RadioButtonGroup": "rbg_y3"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOn_y3",
+                "X": 10,
+                "Y": 70,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\on_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\on_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\on_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\on_btn80.png",
+                "RadioButtonGroup": "rbg_y3"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "t_panel_y3",
+                "X": 47,
+                "Y": 8,
+                "Width": 40,
+                "Height": 24,
+                "TextId": "t_panel_p1",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "panel_Y1",
+            "X": 460,
+            "Y": 100,
+            "Width": 100,
+            "Height": 330,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "imgBg_y1",
+                "Width": 100,
+                "Height": 330,
+                "RelativeFilename": "rec\\panel_man.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "img_y1",
+                "X": 17,
+                "Y": 10,
+                "Width": 25,
+                "Height": 25,
+                "RelativeFilename": "rec\\pump_on.png"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbAuto_y1",
+                "X": 10,
+                "Y": 240,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\auto_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\auto_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\auto_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\auto_btn80.png",
+                "RadioButtonGroup": "rbg_y1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOff_y1",
+                "X": 10,
+                "Y": 155,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\off_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\off_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\off_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\off_btn80.png",
+                "RadioButtonGroup": "rbg_y1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOn_y1",
+                "X": 10,
+                "Y": 70,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\on_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\on_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\on_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\on_btn80.png",
+                "RadioButtonGroup": "rbg_y1"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "t_panel_y1",
+                "X": 47,
+                "Y": 8,
+                "Width": 40,
+                "Height": 24,
+                "TextId": "t_panel_p1",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "panel_Y2",
+            "X": 570,
+            "Y": 100,
+            "Width": 100,
+            "Height": 330,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "imgBg_y2",
+                "Width": 100,
+                "Height": 330,
+                "RelativeFilename": "rec\\panel_man.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "img_y2",
+                "X": 17,
+                "Y": 10,
+                "Width": 25,
+                "Height": 25,
+                "RelativeFilename": "rec\\pump_on.png"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbAuto_y2",
+                "X": 10,
+                "Y": 240,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\auto_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\auto_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\auto_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\auto_btn80.png",
+                "RadioButtonGroup": "rbg_y2"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOff_y2",
+                "X": 10,
+                "Y": 155,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\off_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\off_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\off_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\off_btn80.png",
+                "RadioButtonGroup": "rbg_y2"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOn_y2",
+                "X": 10,
+                "Y": 70,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\on_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\on_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\on_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\on_btn80.png",
+                "RadioButtonGroup": "rbg_y2"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "t_panel_y2",
+                "X": 47,
+                "Y": 8,
+                "Width": 40,
+                "Height": 24,
+                "TextId": "t_panel_p1",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "panel_p2",
+            "X": 350,
+            "Y": 100,
+            "Width": 100,
+            "Height": 330,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "imgBg_p2",
+                "Width": 100,
+                "Height": 330,
+                "RelativeFilename": "rec\\panel_man.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "img_p2",
+                "X": 17,
+                "Y": 10,
+                "Width": 25,
+                "Height": 25,
+                "RelativeFilename": "rec\\pump_on.png"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbAuto_p2",
+                "X": 10,
+                "Y": 240,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\auto_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\auto_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\auto_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\auto_btn80.png",
+                "RadioButtonGroup": "rbg_p2"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOff_p2",
+                "X": 10,
+                "Y": 155,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\off_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\off_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\off_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\off_btn80.png",
+                "RadioButtonGroup": "rbg_p2"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOn_p2",
+                "X": 10,
+                "Y": 70,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\on_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\on_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\on_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\on_btn80.png",
+                "RadioButtonGroup": "rbg_p2"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "t_panel_p2",
+                "X": 47,
+                "Y": 8,
+                "Width": 40,
+                "Height": 24,
+                "TextId": "t_panel_p1",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "panel_p1",
+            "X": 240,
+            "Y": 100,
+            "Width": 100,
+            "Height": 330,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "imgBg_p1",
+                "Width": 100,
+                "Height": 330,
+                "RelativeFilename": "rec\\panel_man.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "img_p1",
+                "X": 17,
+                "Y": 10,
+                "Width": 25,
+                "Height": 25,
+                "RelativeFilename": "rec\\pump_on.png"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbAuto_p1",
+                "X": 10,
+                "Y": 240,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\auto_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\auto_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\auto_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\auto_btn80.png",
+                "RadioButtonGroup": "rbg_p1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOff_p1",
+                "X": 10,
+                "Y": 155,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\off_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\off_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\off_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\off_btn80.png",
+                "RadioButtonGroup": "rbg_p1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "rbOn_p1",
+                "X": 10,
+                "Y": 70,
+                "Width": 80,
+                "Height": 80,
+                "FileNameSelected": "buttons\\on_btn_pressed80.png",
+                "FileNameSelectedPressed": "buttons\\on_btn_pressed80.png",
+                "FileNameUnselected": "buttons\\on_btn80.png",
+                "FileNameUnselectedPressed": "buttons\\on_btn80.png",
+                "RadioButtonGroup": "rbg_p1"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "t_p1",
+                "X": 18,
+                "Y": 37,
+                "Width": 65,
+                "Height": 23,
+                "TextId": "v_p1",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 6
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "t_panel_p1",
+                "X": 47,
+                "Y": 8,
+                "Width": 40,
+                "Height": 24,
+                "TextId": "t_panel_p1",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "panel_sf",
+            "X": 130,
+            "Y": 100,
+            "Width": 100,
+            "Height": 330,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "imgBg_sf",
+                "Width": 100,
+                "Height": 330,
+                "RelativeFilename": "rec\\panel_man.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "img_sf",
+                "X": 23,
+                "Y": 10,
+                "Width": 55,
+                "Height": 20,
+                "RelativeFilename": "rec\\airflap_sec.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "t_sf",
+                "X": 18,
+                "Y": 37,
+                "Width": 65,
+                "Height": 23,
+                "TextId": "v_sf",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 6
+                }
+              },
+              {
+                "Type": "RepeatButton",
+                "Name": "sfDownBtn",
+                "X": 10,
+                "Y": 155,
+                "Width": 80,
+                "Height": 80,
+                "Pressed": "buttons\\down_btn_pressed80.png",
+                "Released": "buttons\\down_btn80.png",
+                "Delay": 1000,
+                "Interval": 100
+              },
+              {
+                "Type": "RepeatButton",
+                "Name": "sfUpBtn",
+                "X": 10,
+                "Y": 70,
+                "Width": 80,
+                "Height": 80,
+                "Pressed": "buttons\\up_btn_pressed80.png",
+                "Released": "buttons\\up_btn80.png",
+                "Delay": 1000,
+                "Interval": 100
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "sfAutoBtn",
+                "X": 10,
+                "Y": 240,
+                "Width": 80,
+                "Height": 80,
+                "Pressed": "buttons\\auto_btn_pressed80.png",
+                "Released": "buttons\\auto_btn80.png"
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_manualDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "panel_pf",
+            "X": 20,
+            "Y": 100,
+            "Width": 100,
+            "Height": 330,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "imgBg_pf",
+                "Width": 100,
+                "Height": 330,
+                "RelativeFilename": "rec\\panel_man.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "img_pf",
+                "X": 23,
+                "Y": 10,
+                "Width": 55,
+                "Height": 20,
+                "RelativeFilename": "rec\\airflap_prim.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "t_pf",
+                "X": 18,
+                "Y": 37,
+                "Width": 65,
+                "Height": 23,
+                "TextId": "v_pf",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 6
+                }
+              },
+              {
+                "Type": "RepeatButton",
+                "Name": "pfDownBtn",
+                "X": 10,
+                "Y": 155,
+                "Width": 80,
+                "Height": 80,
+                "Pressed": "buttons\\down_btn_pressed80.png",
+                "Released": "buttons\\down_btn80.png",
+                "Delay": 1000,
+                "Interval": 100
+              },
+              {
+                "Type": "RepeatButton",
+                "Name": "pfUpBtn",
+                "X": 10,
+                "Y": 70,
+                "Width": 80,
+                "Height": 80,
+                "Pressed": "buttons\\up_btn_pressed80.png",
+                "Released": "buttons\\up_btn80.png",
+                "Delay": 1000,
+                "Interval": 100
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "pfAutoBtn",
+                "X": 10,
+                "Y": 240,
+                "Width": 80,
+                "Height": 80,
+                "Pressed": "buttons\\auto_btn_pressed80.png",
+                "Released": "buttons\\auto_btn80.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "pfUpBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pfUpBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pfUpBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "pfDownBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pfDownBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pfDownBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "pfAutoBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pfAutoBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pfAutoBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "sfUpBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sfUpBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "sfUpBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "sfDownBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sfDownBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "sfDownBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "sfAutoBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sfAutoBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "sfAutoBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOnP1_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOn_p1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOnP1_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOffP1_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOff_p1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOffP1_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbAutoP1_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbAuto_p1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbAutoP1_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOnP2_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOn_p2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOnP2_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOffP2_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOff_p2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOffP2_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbAutoP2_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbAuto_p2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbAutoP2_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOnY1_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOn_y1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOnY1_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOffY1_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOff_y1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOffY1_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbAutoY1_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbAuto_y1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbAutoY1_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOnY2_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOn_y2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOnY2_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOffY2_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOff_y2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOffY2_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbAutoY2_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbAuto_y2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbAutoY2_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOnY3_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOn_y3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOnY3_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbOffY3_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbOff_y3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbOffY3_clicked"
+            }
+          },
+          {
+            "InteractionName": "rbAutoY3_itt",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "rbAuto_y3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rbAutoY3_clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "serviceScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "exchanBtn",
+            "X": 600,
+            "Y": 220,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_exchanBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "systemBtn",
+            "X": 600,
+            "Y": 340,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_systemBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "burnProcBtn",
+            "X": 26,
+            "Y": 220,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_burnProcBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "pflapBtn",
+            "X": 217,
+            "Y": 220,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_pflapBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "sflapBtn",
+            "X": 410,
+            "Y": 220,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_sflapBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "modeIOBtn",
+            "X": 600,
+            "Y": 100,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_modeIOBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "langBtn",
+            "X": 26,
+            "Y": 100,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_langBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "modeBtn",
+            "X": 217,
+            "Y": 100,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_modeBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "energyBtn",
+            "X": 410,
+            "Y": 100,
+            "Width": 175,
+            "Height": 100,
+            "Pressed": "buttons\\btn175.png",
+            "Released": "buttons\\btn175.png",
+            "TextId": "s_energyBtn",
+            "ReleasedColor": {
+              "Red": 46,
+              "Green": 45,
+              "Blue": 45
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_serviceDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "langBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "langBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "langScreen"
+            }
+          },
+          {
+            "InteractionName": "modeIOBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "modeIOBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "modeIOScreen"
+            }
+          },
+          {
+            "InteractionName": "exchanBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "exchanBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "exchanScreen"
+            }
+          },
+          {
+            "InteractionName": "burnProcBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "burnProcBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "burnProcScreen"
+            }
+          },
+          {
+            "InteractionName": "pflapBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pflapBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "pflapScreen"
+            }
+          },
+          {
+            "InteractionName": "sflapBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sflapBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "sflapScreen"
+            }
+          },
+          {
+            "InteractionName": "systemBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "systemBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "systemScreen"
+            }
+          },
+          {
+            "InteractionName": "modeBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "modeBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "modeScreen"
+            }
+          },
+          {
+            "InteractionName": "energyBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "energyBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "energyScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "langScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_langDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "engBtn",
+            "X": 200,
+            "Y": 178,
+            "Width": 175,
+            "Height": 100,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 58,
+                "TextId": "s_english",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 213,
+                  "Green": 115
+                },
+                "ColorPressed": {
+                  "Red": 213,
+                  "Green": 115
+                }
+              },
+              {
+                "Type": "IconButtonStyle",
+                "X": 57,
+                "IconReleased": "icon\\usa_flag.png",
+                "IconPressed": "icon\\usa_flag.png"
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "buttons\\btn175.png",
+                "ImagePressed": "buttons\\btn175_p.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "svkBtn",
+            "X": 428,
+            "Y": 178,
+            "Width": 175,
+            "Height": 100,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 58,
+                "TextId": "s_slovak",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 213,
+                  "Green": 115
+                },
+                "ColorPressed": {
+                  "Red": 213,
+                  "Green": 115
+                }
+              },
+              {
+                "Type": "IconButtonStyle",
+                "X": 57,
+                "IconReleased": "icon\\svk_flag.png",
+                "IconPressed": "icon\\svk_flag.png"
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "buttons\\btn175.png",
+                "ImagePressed": "buttons\\btn175_p.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          },
+          {
+            "InteractionName": "svkBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "svkBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "svkBtnClicked"
+            }
+          },
+          {
+            "InteractionName": "engBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "engBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "engBtnClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "distribScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "hBtn",
+            "X": 313,
+            "Y": 190,
+            "Width": 175,
+            "Height": 100,
+            "FileNameSelected": "buttons\\btn_distrib_heat_p.png",
+            "FileNameSelectedPressed": "buttons\\btn_distrib_heat_p.png",
+            "FileNameUnselected": "buttons\\btn_distrib_heat.png",
+            "FileNameUnselectedPressed": "buttons\\btn_distrib_heat.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_distribDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "wBtn",
+            "X": 518,
+            "Y": 190,
+            "Width": 175,
+            "Height": 100,
+            "FileNameSelected": "buttons\\btn_distrib_water_p.png",
+            "FileNameSelectedPressed": "buttons\\btn_distrib_water_p.png",
+            "FileNameUnselected": "buttons\\btn_distrib_water.png",
+            "FileNameUnselectedPressed": "buttons\\btn_distrib_water.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "whBtn",
+            "X": 108,
+            "Y": 190,
+            "Width": 175,
+            "Height": 100,
+            "FileNameSelected": "buttons\\btn_distrib_heat_water_p.png",
+            "FileNameSelectedPressed": "buttons\\btn_distrib_heat_water_p.png",
+            "FileNameUnselected": "buttons\\btn_distrib_heat_water.png",
+            "FileNameUnselectedPressed": "buttons\\btn_distrib_heat_water.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtnClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "modeIOScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_modeIODlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 400,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "burnProcScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_burnProcDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 400,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "exchanScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_exchanDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 400,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "systemScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "X": -2,
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 321,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsColor": {
+              "Red": 48,
+              "Green": 47,
+              "Blue": 47
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "defaultBtn",
+            "X": 19,
+            "Y": 405,
+            "Width": 130,
+            "Height": 56,
+            "Pressed": "buttons\\btn_pressed.png",
+            "Released": "buttons\\btn.png",
+            "TextId": "s_defaultBtn",
+            "ReleasedColor": {
+              "Red": 5,
+              "Green": 37,
+              "Blue": 245
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_systemDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "i_systemBusy",
+            "X": 360,
+            "Y": 207,
+            "Width": 64,
+            "Height": 64,
+            "Visible": false,
+            "RelativeFilename": "rec\\system_busy.png"
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "questionDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\quest_dlg_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 115,
+            "ModalWidth": 480,
+            "ModalHeight": 250,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "questionDlgCont",
+                "Width": 480,
+                "Height": 250,
+                "CustomContainerDefinitionName": "QuestionDlgCont"
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editTimeDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editTimeDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditTimeDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          },
+          {
+            "InteractionName": "defaultBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "defaultBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "defaultBtn_clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "pflapScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_pflapDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 400,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "sflapScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 225,
+            "Y": 13,
+            "Width": 350,
+            "Height": 36,
+            "TextId": "s_sflapDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 400,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "boilerScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 225,
+            "Y": 11,
+            "Width": 350,
+            "Height": 36,
+            "TextId": "s_boilerDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 400,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "accumScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 225,
+            "Y": 12,
+            "Width": 350,
+            "Height": 36,
+            "TextId": "s_accumDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 400,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "modeScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "X": 2,
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_modeDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 12,
+            "Y": 280,
+            "Width": 780,
+            "Height": 190,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "i_scheme",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 200,
+            "RelativeFilename": "sch\\sch2.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "leftBtn",
+            "X": 15,
+            "Y": 210,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\left_btn56_pressed.png",
+            "Released": "buttons\\left_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "rightBtn",
+            "X": 710,
+            "Y": 210,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\right_btn56_pressed.png",
+            "Released": "buttons\\right_btn56.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_sch",
+            "X": 16,
+            "Y": 70,
+            "Width": 100,
+            "Height": 24,
+            "TextId": "v_sch",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          },
+          {
+            "InteractionName": "leftBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "leftBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "leftBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "rightBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "rightBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rightBtn_clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "exserviceScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_exserviceDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "menuScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "energyScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_bg",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "rec\\menu_screen_bg.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "clrAEngBtn",
+            "X": 39,
+            "Y": 320,
+            "Width": 144,
+            "Height": 70,
+            "Pressed": "buttons\\btn144x70_p.png",
+            "Released": "buttons\\btn144x70.png",
+            "TextId": "s_clearAEngBtn",
+            "ReleasedColor": {
+              "Red": 5,
+              "Green": 37,
+              "Blue": 245
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Button",
+            "Name": "backBtn",
+            "X": 2,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\return_btn_pressed56.png",
+            "Released": "buttons\\return_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 723,
+            "Y": 1,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 5,
+            "Y": 60,
+            "Width": 790,
+            "Height": 5,
+            "Color": {
+              "Red": 250,
+              "Green": 250,
+              "Blue": 250
+            },
+            "EndX": 790.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dialogLabel",
+            "X": 250,
+            "Y": 13,
+            "Width": 300,
+            "Height": 36,
+            "TextId": "s_energyDlg",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollCnt",
+            "X": 10,
+            "Y": 70,
+            "Width": 780,
+            "Height": 230,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsColor": {
+              "Red": 45,
+              "Green": 45,
+              "Blue": 46
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "list",
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "questionDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\quest_dlg_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 115,
+            "ModalWidth": 480,
+            "ModalHeight": 250,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "questionDlgCont",
+                "Width": 480,
+                "Height": 250,
+                "CustomContainerDefinitionName": "QuestionDlgCont"
+              }
+            ]
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "editNumDlg",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "rec\\edit_num_cont_bg.png",
+            "ModalX": 160,
+            "ModalY": 90,
+            "ModalWidth": 480,
+            "ModalHeight": 300,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "editNumDlgCont",
+                "Width": 480,
+                "Height": 300,
+                "CustomContainerDefinitionName": "EditNumDlgCont"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "backBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "serviceScreen"
+            }
+          },
+          {
+            "InteractionName": "clearEngBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "clrAEngBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "clearEngBtn_clicked"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "MenuList_HeaderCont",
+        "X": 7,
+        "Width": 780,
+        "Height": 35,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imgBG",
+            "Width": 780,
+            "Height": 35,
+            "RelativeFilename": "rec\\list_itemh_bg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_name",
+            "X": 10,
+            "Y": 3,
+            "Width": 253,
+            "Height": 27,
+            "TextId": "sh_regPower",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 27,
+              "Green": 64,
+              "Blue": 128
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "MenuList_ItemTimeCont",
+        "X": 7,
+        "Width": 780,
+        "Height": 50,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imgBG",
+            "Width": 780,
+            "Height": 50,
+            "RelativeFilename": "rec\\list_item_bg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_name",
+            "X": 10,
+            "Y": 10,
+            "Width": 63,
+            "Height": 26,
+            "TextId": "im_name",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_value",
+            "X": 589,
+            "Y": 10,
+            "Width": 150,
+            "Height": 38,
+            "TextId": "im_value",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Clickable": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "MenuList_ItemNumberCont",
+        "X": 7,
+        "Width": 780,
+        "Height": 50,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imgBG",
+            "Width": 780,
+            "Height": 50,
+            "RelativeFilename": "rec\\list_item_bg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_name",
+            "X": 10,
+            "Y": 10,
+            "Width": 63,
+            "Height": 26,
+            "TextId": "im_name",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_unit",
+            "X": 710,
+            "Y": 10,
+            "Width": 60,
+            "Height": 30,
+            "TextId": "im_unit",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_value",
+            "X": 555,
+            "Y": 10,
+            "Width": 150,
+            "Height": 38,
+            "TextId": "im_value",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Clickable": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "MenuList_ItemSwitchCont",
+        "X": 7,
+        "Width": 780,
+        "Height": 50,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imgBG",
+            "Width": 780,
+            "Height": 50,
+            "RelativeFilename": "rec\\list_item_bg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_name",
+            "X": 10,
+            "Y": 10,
+            "Width": 63,
+            "Height": 26,
+            "TextId": "im_name",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleBtn",
+            "X": 677,
+            "Y": 8,
+            "Width": 62,
+            "Height": 34,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_action.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_normal.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "MenuList_ItemComboBoxCont",
+        "X": 7,
+        "Width": 780,
+        "Height": 50,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imgBG",
+            "Width": 780,
+            "Height": 50,
+            "RelativeFilename": "rec\\list_item_bg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_name",
+            "X": 10,
+            "Y": 10,
+            "Width": 63,
+            "Height": 26,
+            "TextId": "im_name",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "comboBox",
+            "X": 590,
+            "Y": 3,
+            "Width": 175,
+            "Height": 250,
+            "CustomContainerDefinitionName": "ComboBoxCont"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "QuestionDlgCont",
+        "Width": 480,
+        "Height": 250,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imgBg",
+            "Width": 480,
+            "Height": 250,
+            "RelativeFilename": "rec\\quest_dlg_cont_bg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "v_qd_msg",
+            "X": 100,
+            "Y": 52,
+            "Width": 353,
+            "Height": 88,
+            "TextId": "msg_q_realydefault",
+            "TextRotation": "0",
+            "WideTextAction": 1
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "okBtn",
+            "X": 101,
+            "Y": 172,
+            "Width": 130,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed.png",
+            "Released": "buttons\\ok_btn.png",
+            "TextId": "s_yesBtn",
+            "ReleasedColor": {
+              "Red": 5,
+              "Green": 5,
+              "Blue": 5
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "closeBtn",
+            "X": 250,
+            "Y": 172,
+            "Width": 130,
+            "Height": 56,
+            "Pressed": "buttons\\abort_btn_pressed.png",
+            "Released": "buttons\\abort_btn.png",
+            "TextId": "s_noBtn",
+            "ReleasedColor": {
+              "Red": 3,
+              "Green": 3,
+              "Blue": 3
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Image",
+            "Name": "imgMsg",
+            "X": 23,
+            "Y": 61,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "rec\\question_icon.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "closeBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "closeBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "closeBtn_clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "EditTimeDlgCont",
+        "Width": 480,
+        "Height": 300,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imgBg",
+            "Width": 480,
+            "Height": 300,
+            "RelativeFilename": "rec\\edit_num_cont_bg.png"
+          },
+          {
+            "Type": "Box",
+            "Name": "boxTitle",
+            "X": 90,
+            "Y": 10,
+            "Width": 380,
+            "Height": 30,
+            "Color": {
+              "Red": 224,
+              "Green": 220,
+              "Blue": 220
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "v_value",
+            "X": 188,
+            "Y": 64,
+            "Width": 100,
+            "Height": 35,
+            "TextId": "v_value",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 8
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "v_name",
+            "X": 90,
+            "Y": 10,
+            "Width": 380,
+            "Height": 30,
+            "TextId": "v_name",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 12,
+              "Green": 82,
+              "Blue": 148
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 50
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 397,
+            "Y": 235,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "closeBtn",
+            "X": 8,
+            "Y": 8,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\close_btn_p.png",
+            "Released": "buttons\\close_btn.png"
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "downBtnH",
+            "X": 147,
+            "Y": 117,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\down_btn_pressed80.png",
+            "Released": "buttons\\down_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "downBtnM",
+            "X": 337,
+            "Y": 117,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\down_btn_pressed80.png",
+            "Released": "buttons\\down_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "upBtnH",
+            "X": 62,
+            "Y": 117,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\up_btn_pressed80.png",
+            "Released": "buttons\\up_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "upBtnM",
+            "X": 252,
+            "Y": 117,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "buttons\\up_btn_pressed80.png",
+            "Released": "buttons\\up_btn80.png",
+            "Delay": 1000,
+            "Interval": 200
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "upBtnH_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "upBtnH"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "upBtnH_clicked"
+            }
+          },
+          {
+            "InteractionName": "downBtnH_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "downBtnH"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "downBtnH_clicked"
+            }
+          },
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "closeBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "closeBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "closeBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "upBtnM_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "upBtnM"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "upBtnM_clicked"
+            }
+          },
+          {
+            "InteractionName": "downBtnM_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "downBtnM"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "downBtnM_clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "EditNumDlgCont",
+        "Width": 480,
+        "Height": 300,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imgBg",
+            "Width": 480,
+            "Height": 300,
+            "RelativeFilename": "rec\\edit_num_cont_bg.png"
+          },
+          {
+            "Type": "Box",
+            "Name": "boxTitle",
+            "X": 90,
+            "Y": 10,
+            "Width": 380,
+            "Height": 30,
+            "Color": {
+              "Red": 224,
+              "Green": 220,
+              "Blue": 220
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "v_maxVal",
+            "X": 402,
+            "Y": 84,
+            "Width": 60,
+            "Height": 20,
+            "TextId": "v_maxVal",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 8
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "v_minVal",
+            "X": 20,
+            "Y": 84,
+            "Width": 60,
+            "Height": 20,
+            "TextId": "v_minVal",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 8
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "v_value",
+            "X": 170,
+            "Y": 60,
+            "Width": 140,
+            "Height": 35,
+            "TextId": "v_value",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 8
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "v_name",
+            "X": 100,
+            "Y": 10,
+            "Width": 350,
+            "Height": 30,
+            "TextId": "v_name",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 12,
+              "Green": 82,
+              "Blue": 148
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 50
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "okBtn",
+            "X": 397,
+            "Y": 235,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\ok_btn_pressed56.png",
+            "Released": "buttons\\ok_btn56.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "closeBtn",
+            "X": 8,
+            "Y": 8,
+            "Width": 75,
+            "Height": 56,
+            "Pressed": "buttons\\close_btn_p.png",
+            "Released": "buttons\\close_btn.png"
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "downBtn",
+            "X": 243,
+            "Y": 165,
+            "Width": 130,
+            "Height": 56,
+            "Pressed": "buttons\\down_btn_pressed.png",
+            "Released": "buttons\\down_btn.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "upBtn",
+            "X": 107,
+            "Y": 165,
+            "Width": 130,
+            "Height": 56,
+            "Pressed": "buttons\\up_btn_pressed.png",
+            "Released": "buttons\\up_btn.png",
+            "Delay": 1000,
+            "Interval": 200
+          },
+          {
+            "Type": "Slider",
+            "Name": "slider",
+            "X": 24,
+            "Y": 110,
+            "Width": 432,
+            "Height": 32,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "rec\\slider_horizontal_thick_track_large.png",
+            "BackgroundSelected": "rec\\slider_horizontal_thick_filler_large.png",
+            "Indicator": "rec\\slider_horizontal_thick_round_light.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 400,
+            "ValueMax": 100
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "upBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "upBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "upBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "downBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "downBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "downBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "okBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "okBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "okBtn_clicked"
+            }
+          },
+          {
+            "InteractionName": "slider_itt",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "sliderChangeVal"
+            }
+          },
+          {
+            "InteractionName": "closeBtn_itt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "closeBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "closeBtn_clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "NumPadCont",
+        "Width": 310,
+        "Height": 362,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_numPad",
+            "Width": 310,
+            "Height": 362,
+            "RelativeFilename": "numpad\\numpad_bg.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "ComboBoxCont",
+        "Width": 175,
+        "Height": 250,
+        "Components": [
+          {
+            "Type": "FlexButton",
+            "Name": "ddBtn",
+            "Width": 175,
+            "Height": 45,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "X": 7,
+                "Y": 9,
+                "TextId": "__SingleUse_0J28",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "IconButtonStyle",
+                "X": 144,
+                "Y": 10,
+                "IconReleased": "__generated\\icon_theme_images_navigation_expand_more_30_30_707070.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_navigation_expand_more_30_30_707070.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 175,
+                "Height": 45,
+                "BorderSize": 3,
+                "ColorReleased": {
+                  "Red": 237,
+                  "Green": 239,
+                  "Blue": 240
+                },
+                "ColorPressed": {
+                  "Red": 237,
+                  "Green": 239,
+                  "Blue": 240
+                },
+                "ColorBorderReleased": {
+                  "Red": 105,
+                  "Green": 105,
+                  "Blue": 105
+                },
+                "ColorBorderPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                }
+              }
+            ]
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "listCont",
+            "X": 4,
+            "Y": 45,
+            "Width": 167,
+            "Height": 150,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "listBorder",
+                "Width": 167,
+                "Height": 45
+              },
+              {
+                "Type": "ListLayout",
+                "Name": "listLayout",
+                "X": 1,
+                "Y": 1,
+                "Width": 250,
+                "Height": 250,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "ComboBoxItemCont",
+        "Width": 165,
+        "Height": 45,
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "itemBtn",
+            "Width": 165,
+            "Height": 45,
+            "Pressed": "rec\\combox_item_p.png",
+            "Released": "rec\\combox_item.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "itemText",
+            "X": 7,
+            "Y": 12,
+            "Width": 155,
+            "Height": 25,
+            "TextId": "__SingleUse_C70J",
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "SensorExCont",
+        "Width": 120,
+        "Height": 26,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_panel",
+            "Width": 120,
+            "Height": 26,
+            "RelativeFilename": "rec\\sensor_ex_label.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_value",
+            "X": 31,
+            "Y": 1,
+            "Width": 85,
+            "Height": 24,
+            "TextId": "v_sensor",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "i_icon",
+            "X": 6,
+            "Y": 1,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "rec\\o_temp.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "SensorCont",
+        "Width": 96,
+        "Height": 26,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_panel",
+            "Width": 96,
+            "Height": 26,
+            "RelativeFilename": "rec\\sen_label.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "t_value",
+            "X": 6,
+            "Y": 1,
+            "Width": 85,
+            "Height": 24,
+            "TextId": "v_sensor",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "PumpCont",
+        "Width": 60,
+        "Height": 61,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "i_pump",
+            "X": 10,
+            "Width": 41,
+            "Height": 41,
+            "RelativeFilename": "rec\\pump_on1.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "v_pump",
+            "Y": 43,
+            "Width": 60,
+            "Height": 17,
+            "TextId": "v_pumpVal",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "ValveMCont",
+        "Width": 60,
+        "Height": 63,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "v_valve",
+            "X": 1,
+            "Width": 60,
+            "Height": 17,
+            "TextId": "v_pumpVal",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "i_valve",
+            "X": 1,
+            "Y": 19,
+            "Width": 58,
+            "Height": 43,
+            "FileNameFirst": "rec\\valve_m0.png",
+            "FileNameLast": "rec\\valve_m1.png",
+            "UpdateTicksInterval": 400,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "DC8500",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "mainScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U5F9/5G9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../DC8500.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": [
+      "GPU2DVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0"
+}

@@ -1,0 +1,13 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<accumScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/accumscreen_screen/accumScreenView.cpp:34:6:virtual void accumScreenView::tearDownScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = accumScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	12	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = accumScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<accumScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/accumscreen_screen/accumScreenView.cpp:39:6:void accumScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	24	static
+../../TouchGFX/gui/include/gui/accumscreen_screen/accumScreenView.hpp:12:13:accumScreenView::~accumScreenView()	16	static
+../../TouchGFX/gui/include/gui/accumscreen_screen/accumScreenView.hpp:12:13:virtual accumScreenView::~accumScreenView()	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/accumscreen_screen/accumScreenView.cpp:3:1:accumScreenView::accumScreenView()	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/accumscreen_screen/accumScreenView.cpp:9:6:virtual void accumScreenView::setupScreen()	40	static

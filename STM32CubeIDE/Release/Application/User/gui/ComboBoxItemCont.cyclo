@@ -1,0 +1,27 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<ComboBoxItemCont, const touchgfx::AbstractButton&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = ComboBoxItemCont; T1 = const touchgfx::AbstractButton&]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = ComboBoxItemCont; T1 = const touchgfx::AbstractButton&]	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<ComboBoxItemCont, const touchgfx::AbstractButton&>::~Callback()	1
+../../TouchGFX/gui/include/gui/containers/ComboBoxItemCont.hpp:12:13:ComboBoxItemCont::~ComboBoxItemCont()	1
+../../TouchGFX/gui/include/gui/containers/ComboBoxItemCont.hpp:12:13:virtual ComboBoxItemCont::~ComboBoxItemCont()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:51:6:void ComboBoxItemCont::itemSelectedHandler(const touchgfx::AbstractButton&)	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:3:1:ComboBoxItemCont::ComboBoxItemCont()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:16:6:void ComboBoxItemCont::setText(const touchgfx::TypedText&)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:22:6:void ComboBoxItemCont::setIcon(touchgfx::BitmapId)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:28:6:void ComboBoxItemCont::setIndex(uint16_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:33:10:uint16_t ComboBoxItemCont::getIndex() const	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:38:28:const touchgfx::TypedText& ComboBoxItemCont::getText() const	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:45:6:void ComboBoxItemCont::setCallback(touchgfx::GenericCallback<const ComboBoxItemCont&>*)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/ComboBoxItemCont.cpp:11:6:virtual void ComboBoxItemCont::initialize()	1

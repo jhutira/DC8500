@@ -1,0 +1,7 @@
+../Source/air_flap.c:46:6:airflap_movePosition	8	static
+../Source/air_flap.c:66:10:airflap_compute	32	static
+../Source/air_flap.c:129:6:airflap_setDefault	0	static
+../Source/air_flap.c:31:6:airflap_init	0	static
+../Source/air_flap.c:151:6:airflap_saveSettings	16	static
+../Source/air_flap.c:166:6:airflap_loadSettings	16	static
+../Source/air_flap.c:181:6:airflap_saveMode	0	static

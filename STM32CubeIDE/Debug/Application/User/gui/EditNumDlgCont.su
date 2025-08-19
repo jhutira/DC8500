@@ -1,0 +1,34 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:515:10:void touchgfx::Drawable::setVisible(bool)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:246:22:const touchgfx::TypedText& touchgfx::TextArea::getTypedText() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:79:10:void touchgfx::TextAreaWithOneWildcard::setWildcard1(const touchgfx::Unicode::UnicodeChar*)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:98:10:void touchgfx::TextAreaWithOneWildcard::setWildcard(const touchgfx::Unicode::UnicodeChar*)	16	static
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemNumberCont.hpp:23:14:uint16_t MenuList_ItemNumberCont::getValue()	16	static
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemNumberCont.hpp:28:16:eTypeValue MenuList_ItemNumberCont::getTypeValue()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:41:7:constexpr touchgfx::TypedText::TypedText(const touchgfx::TypedText&)	16	static
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemNumberCont.hpp:43:25:touchgfx::TypedText MenuList_ItemNumberCont::getTypedTextFromName()	16	static
+../../TouchGFX/gui/include/gui/containers/MenuList_ItemNumberCont.hpp:48:25:touchgfx::TypedText MenuList_ItemNumberCont::getTypedTextFromUnit()	16	static
+../../TouchGFX/gui/include/gui/containers/EditNumDlgCont.hpp:15:13:EditNumDlgCont::~EditNumDlgCont()	16	static
+../../TouchGFX/gui/include/gui/containers/EditNumDlgCont.hpp:15:13:virtual EditNumDlgCont::~EditNumDlgCont()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:3:1:EditNumDlgCont::EditNumDlgCont()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:8:6:virtual void EditNumDlgCont::initialize()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:16:6:void EditNumDlgCont::showModal(touchgfx::ModalWindow*, MenuList_ItemNumberCont*, uint16_t, uint16_t)	64	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:53:6:void EditNumDlgCont::_print_value(touchgfx::Unicode::UnicodeChar*, uint16_t, eTypeValue, uint16_t)	32	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:70:6:virtual void EditNumDlgCont::okBtn_clicked()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:92:6:virtual void EditNumDlgCont::closeBtn_clicked()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:104:6:virtual void EditNumDlgCont::upBtn_clicked()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:118:6:virtual void EditNumDlgCont::downBtn_clicked()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/containers/EditNumDlgCont.cpp:132:6:virtual void EditNumDlgCont::sliderChangeVal(int)	24	static
