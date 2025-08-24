@@ -2,18 +2,20 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<modeScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:24:6:virtual void modeScreenView::tearDownScreen()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:29:6:virtual void modeScreenView::tearDownScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = modeScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	12	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = modeScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<modeScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:146:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:50:6:void modeScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	16	static
-../../TouchGFX/gui/include/gui/modescreen_screen/modeScreenView.hpp:17:13:modeScreenView::~modeScreenView()	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:60:6:void modeScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	16	static
+../../TouchGFX/gui/include/gui/modescreen_screen/modeScreenView.hpp:17:13:modeScreenView::~modeScreenView()	24	static
 ../../TouchGFX/gui/include/gui/modescreen_screen/modeScreenView.hpp:17:13:virtual modeScreenView::~modeScreenView()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:62:6:virtual void modeScreenView::okBtn_clicked()	24	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:3:1:modeScreenView::modeScreenView()	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:43:6:void modeScreenView::initDoor(door_st)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:9:6:virtual void modeScreenView::setupScreen()	24	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:29:6:void modeScreenView::initRegSch(uint8_t)	24	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:76:6:virtual void modeScreenView::leftBtn_clicked()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:85:6:virtual void modeScreenView::rightBtn_clicked()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:58:10:bool touchgfx::ToggleButton::getState() const	8	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:72:6:virtual void modeScreenView::okBtn_clicked()	24	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:3:1:modeScreenView::modeScreenView()	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:48:6:void modeScreenView::initDoor(door_st)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:54:6:void modeScreenView::initOutdoorTemp(outdoorTemp_st)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:9:6:virtual void modeScreenView::setupScreen()	24	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:34:6:void modeScreenView::initRegSch(uint8_t)	24	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:91:6:virtual void modeScreenView::leftBtn_clicked()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modescreen_screen/modeScreenView.cpp:100:6:virtual void modeScreenView::rightBtn_clicked()	0	static

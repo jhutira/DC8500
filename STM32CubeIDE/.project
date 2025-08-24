@@ -1205,6 +1205,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/buttons/image_btn56.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_btn_del.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/buttons/image_btn_del.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_btn_del_pressed.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/buttons/image_btn_del_pressed.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_btn_distrib_heat.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/buttons/image_btn_distrib_heat.cpp</locationURI>
@@ -1233,6 +1243,16 @@
 			<name>Application/User/generated/image_btn_distrib_water_p.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/buttons/image_btn_distrib_water_p.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_btn_num.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/buttons/image_btn_num.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_btn_num_pressed.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/buttons/image_btn_num_pressed.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_btn_pressed.cpp</name>
@@ -1453,6 +1473,11 @@
 			<name>Application/User/generated/image_ManIcon.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/icon/image_ManIcon.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_flash.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/icon/image_flash.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_icon0.cpp</name>
@@ -1773,6 +1798,11 @@
 			<name>Application/User/generated/image_m_sch8.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/sch/image_m_sch8.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_m_sch9.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/sch/image_m_sch9.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_sch1.cpp</name>

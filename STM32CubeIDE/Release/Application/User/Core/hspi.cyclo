@@ -1,3 +1,3 @@
-/home/jozefh/Development/mcu/prj/DC8500/Core/Src/hspi.c:32:6:MX_HSPI1_Init	2
-/home/jozefh/Development/mcu/prj/DC8500/Core/Src/hspi.c:97:6:HAL_XSPI_MspInit	3
-/home/jozefh/Development/mcu/prj/DC8500/Core/Src/hspi.c:168:6:HAL_XSPI_MspDeInit	2
+C:/Development/mcu/prj/DC8500/Core/Src/hspi.c:32:6:MX_HSPI1_Init	2
+C:/Development/mcu/prj/DC8500/Core/Src/hspi.c:97:6:HAL_XSPI_MspInit	3
+C:/Development/mcu/prj/DC8500/Core/Src/hspi.c:168:6:HAL_XSPI_MspDeInit	2

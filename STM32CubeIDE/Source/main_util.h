@@ -64,6 +64,7 @@ extern uint8_t fTick_1sec;
 extern uint8_t fTick_1min;
 extern uint8_t fTick_15min;
 extern uint8_t fNew_day;
+extern uint8_t fTick_EngUpdate;
 
 extern uint16_t userTimer1;
 extern uint16_t userTimer2;

@@ -52,6 +52,7 @@ uint8_t fTick_1sec = 0;
 uint8_t fTick_1min = 0;
 uint8_t fTick_15min = 0;
 uint8_t fNew_day = 0;
+uint8_t fTick_EngUpdate = 0;
 
 uint16_t userTimer1 = 0;
 uint16_t userTimer2 = 0;
@@ -115,6 +116,7 @@ datetime_st RTC_GetCalendar(void)
 	mDatetime.Year = mDate.Year;
 	mDatetime.Hours = mTime.Hours;
 	mDatetime.Minutes = mTime.Minutes;
+	mDatetime.Seconds = mTime.Seconds;
 	return mDatetime;
 }
 

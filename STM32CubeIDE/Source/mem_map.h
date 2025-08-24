@@ -43,7 +43,7 @@ extern "C" {
 #define aPFLAP     		300
 #define aSFLAP      	310
 
-
+#define aOUTDOOR_TEMP  	380
 #define aDOOR_SW     	395
 #define aDOOR_TIMEOUT  	396		/* 2B */
 #define aBURN_PROFIL  	400

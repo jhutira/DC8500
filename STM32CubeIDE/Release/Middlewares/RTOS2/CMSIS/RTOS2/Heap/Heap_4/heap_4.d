@@ -1,5 +1,5 @@
 Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o: \
- /home/jozefh/Development/mcu/prj/DC8500/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c \
+ C:/Development/mcu/prj/DC8500/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

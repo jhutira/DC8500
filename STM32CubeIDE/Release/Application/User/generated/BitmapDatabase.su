@@ -1,2 +1,2 @@
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/images/src/BitmapDatabase.cpp:297:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/images/src/BitmapDatabase.cpp:302:10:uint16_t BitmapDatabase::getInstanceSize()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/images/src/BitmapDatabase.cpp:309:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/images/src/BitmapDatabase.cpp:314:10:uint16_t BitmapDatabase::getInstanceSize()	0	static

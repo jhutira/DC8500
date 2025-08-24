@@ -44,7 +44,7 @@ extern "C" {
 #define CO_M_IPWM      	2
 
 /* Modus */
-
+#define mUSE_ENG_MEAS  	0x8000
 #define mUSE_FLAP2  	0x1000
 #define mUSE_WATER_EXCH 0x0800
 #define mUSE_2LOOPS 	0x0400
@@ -140,6 +140,11 @@ typedef struct
 } st_auxOut;
 
 
+typedef struct
+{
+    uint8_t view;
+} outdoorTemp_st;
+
 /******************************************************************************
 ** Constants
 *******************************************************************************/
@@ -164,6 +169,8 @@ extern boiler_st boiler;
 
 extern st_auxOut auxOut;
 
+extern outdoorTemp_st outdoorTemp;
+
 extern uint8_t extHeatSrcOn;
 extern uint8_t fAntiBlockFunStart;
 
@@ -177,6 +184,7 @@ extern void reg_process(void);
 
 extern void waterExch_regProcess(void);
 
+extern void contPump_install(void);
 extern void contPump_setDefault(void);
 extern void contPump_loadSettings(void);
 extern void contPump_saveSettings(void);
@@ -194,6 +202,11 @@ extern void boiler_loadSettings(void);
 extern void boiler_saveSettings(void);
 extern void boiler_check(void);
 extern void boiler_regProcess(uint8_t en);
+
+extern void oTemp_install(void);
+extern void oTemp_setDefault(void);
+extern void oTemp_loadSettings(void);
+extern void oTemp_saveSettings(void);
 
 extern void auxout_install(uint8_t mode);
 extern void auxout_setDefault(void);

@@ -1,5 +1,5 @@
 Libraries/display/backlight.o: ../Libraries/display/backlight.c \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/display/backlight.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/display/backlight.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_tim.h \
  ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5g9xx.h \
@@ -48,7 +48,7 @@ Libraries/display/backlight.o: ../Libraries/display/backlight.c \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_bus.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_rcc.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_gpio.h
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/display/backlight.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/display/backlight.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_tim.h:
 ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h:
 ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5g9xx.h:

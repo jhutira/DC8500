@@ -54,6 +54,19 @@ float Get_Temperature_OUT()
 }
 
 /******************************************************************************
+ ** flowmeter_install
+ *******************************************************************************
+ * Description    : Install flowmeter
+ * Input          : None
+ * Return         : None
+ *******************************************************************************/
+void flowmeter_install(void)
+{
+	flowmeter_setDefault();
+	flowmeter_saveSettings();
+}
+
+/******************************************************************************
  ** flowmeter_setDefault
  *******************************************************************************
  * Description    : Setting to default values

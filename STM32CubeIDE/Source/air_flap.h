@@ -78,6 +78,7 @@ void airflap_movePosition(uint8_t ch, uint16_t pos);
 
 uint16_t airflap_compute(uint8_t ch, int16_t iVal, int16_t rVal);
 
+void airflap_install(uint8_t ch);
 void airflap_setDefault(uint8_t ch);
 
 void airflap_loadSettings(uint8_t ch);

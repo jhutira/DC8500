@@ -8,8 +8,8 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	0	static
 ../../TouchGFX/gui/include/gui/menuscreen_screen/menuScreenPresenter.hpp:28:13:menuScreenPresenter::~menuScreenPresenter()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenPresenter.cpp:21:6:virtual void menuScreenPresenter::deactivate()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenPresenter.cpp:21:6:virtual void menuScreenPresenter::deactivate()	0	static
 ../../TouchGFX/gui/include/gui/menuscreen_screen/menuScreenPresenter.hpp:28:13:virtual menuScreenPresenter::~menuScreenPresenter()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenPresenter.cpp:10:6:virtual void menuScreenPresenter::activate()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenPresenter.cpp:10:6:virtual void menuScreenPresenter::activate()	0	static
 ../../TouchGFX/gui/include/gui/menuscreen_screen/menuScreenPresenter.hpp:28:13:virtual void* menuScreenPresenter::_ZThn4_N19menuScreenPresenterD1Ev()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenPresenter.cpp:4:1:menuScreenPresenter::menuScreenPresenter(menuScreenView&)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenPresenter.cpp:4:1:menuScreenPresenter::menuScreenPresenter(menuScreenView&)	0	static

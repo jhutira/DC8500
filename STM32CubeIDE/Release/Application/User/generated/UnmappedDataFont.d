@@ -1,5 +1,5 @@
 Application/User/generated/UnmappedDataFont.o: \
- /home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp \
+ C:/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FlashDataReader.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

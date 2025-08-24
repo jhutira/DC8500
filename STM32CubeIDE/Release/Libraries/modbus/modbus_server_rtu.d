@@ -1,8 +1,8 @@
 Libraries/modbus/modbus_server_rtu.o: \
  ../Libraries/modbus/modbus_server_rtu.c \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h \
  ../../Core/Inc/usart.h ../../Core/Inc/main.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
@@ -48,11 +48,11 @@ Libraries/modbus/modbus_server_rtu.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
 ../../Core/Inc/usart.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
@@ -99,5 +99,5 @@ Libraries/modbus/modbus_server_rtu.o: \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h:

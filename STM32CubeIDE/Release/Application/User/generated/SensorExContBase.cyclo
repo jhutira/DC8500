@@ -20,11 +20,11 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:403:41:virtual const touchgfx::Unicode::UnicodeChar* touchgfx::TextArea::getWildcard2() const	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:84:41:virtual const touchgfx::Unicode::UnicodeChar* touchgfx::TextAreaWithOneWildcard::getWildcard1() const	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/SensorExContBase.cpp:30:1:SensorExContBase::~SensorExContBase()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/SensorExContBase.cpp:35:6:virtual void SensorExContBase::initialize()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/SensorExContBase.cpp:30:1:SensorExContBase::~SensorExContBase()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/SensorExContBase.cpp:35:6:virtual void SensorExContBase::initialize()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/SensorExContBase.cpp:30:1:virtual SensorExContBase::~SensorExContBase()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/SensorExContBase.cpp:30:1:virtual SensorExContBase::~SensorExContBase()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:43:18:virtual void touchgfx::TextAreaWithWildcardBase::invalidateContent() const	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
@@ -33,4 +33,4 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:48:5:touchgfx::Drawable::Drawable()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/SensorExContBase.cpp:9:1:SensorExContBase::SensorExContBase()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/SensorExContBase.cpp:9:1:SensorExContBase::SensorExContBase()	1

@@ -2,14 +2,14 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<burnScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:32:6:virtual void burnScreenView::tearDownScreen()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:32:6:virtual void burnScreenView::tearDownScreen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = burnScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = burnScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<burnScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:59:6:virtual void burnScreenView::okBtn_clicked()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:37:6:void burnScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	4
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:59:6:virtual void burnScreenView::okBtn_clicked()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:37:6:void burnScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	4
 ../../TouchGFX/gui/include/gui/burnscreen_screen/burnScreenView.hpp:15:13:burnScreenView::~burnScreenView()	1
 ../../TouchGFX/gui/include/gui/burnscreen_screen/burnScreenView.hpp:15:13:virtual burnScreenView::~burnScreenView()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:6:1:burnScreenView::burnScreenView()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:53:6:void burnScreenView::initProfile(burn_profile_st)	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:13:6:virtual void burnScreenView::setupScreen()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:6:1:burnScreenView::burnScreenView()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:53:6:void burnScreenView::initProfile(burn_profile_st)	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenView.cpp:13:6:virtual void burnScreenView::setupScreen()	1

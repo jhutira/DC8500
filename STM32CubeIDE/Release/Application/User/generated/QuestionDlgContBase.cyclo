@@ -15,18 +15,18 @@
 ../../TouchGFX/generated/gui_generated/include/gui_generated/containers/QuestionDlgContBase.hpp:23:18:virtual void QuestionDlgContBase::okBtn_clicked()	1
 ../../TouchGFX/generated/gui_generated/include/gui_generated/containers/QuestionDlgContBase.hpp:27:18:virtual void QuestionDlgContBase::closeBtn_clicked()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<QuestionDlgContBase, const touchgfx::AbstractButton&>::~Callback()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:46:1:QuestionDlgContBase::~QuestionDlgContBase()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:51:6:virtual void QuestionDlgContBase::initialize()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:46:1:QuestionDlgContBase::~QuestionDlgContBase()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:51:6:virtual void QuestionDlgContBase::initialize()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = QuestionDlgContBase; T1 = const touchgfx::AbstractButton&]	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = QuestionDlgContBase; T1 = const touchgfx::AbstractButton&]	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<QuestionDlgContBase, const touchgfx::AbstractButton&>::~Callback()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:46:1:virtual QuestionDlgContBase::~QuestionDlgContBase()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:46:1:virtual QuestionDlgContBase::~QuestionDlgContBase()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:56:6:void QuestionDlgContBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	3
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:56:6:void QuestionDlgContBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:48:5:touchgfx::Drawable::Drawable()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	2
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:9:1:QuestionDlgContBase::QuestionDlgContBase()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/containers/QuestionDlgContBase.cpp:9:1:QuestionDlgContBase::QuestionDlgContBase()	1

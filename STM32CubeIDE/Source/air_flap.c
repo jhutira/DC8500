@@ -118,6 +118,18 @@ uint16_t airflap_compute(uint8_t ch, int16_t iVal, int16_t rVal)
 	return new_pos;
 }
 
+/******************************************************************************
+** airflap_install
+*******************************************************************************
+* Description    : Install
+* Input          : ch: channel [0..1]
+* Return         : None
+*******************************************************************************/
+void airflap_install(uint8_t ch)
+{
+	airflap_setDefault(ch);
+	airflap_saveSettings(ch);
+}
 
 /******************************************************************************
 ** airflap_SetDefault

@@ -79,6 +79,7 @@ extern energy_st energy;
 ** Functions
 *******************************************************************************/
 
+extern void flowmeter_install(void);
 extern void flowmeter_setDefault(void);
 extern void flowmeter_loadSettings(void);
 extern void flowmeter_saveSettings(void);

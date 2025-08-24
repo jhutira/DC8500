@@ -1,7 +1,7 @@
 Source/pid_reg.o: ../Source/pid_reg.c ../Source/pid_reg.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/uart_log.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/uart_log.h \
  ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h \
  ../../Core/Inc/i2c.h ../../Core/Inc/main.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
@@ -47,11 +47,11 @@ Source/pid_reg.o: ../Source/pid_reg.c ../Source/pid_reg.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h
 ../Source/pid_reg.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/uart_log.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/uart_log.h:
 ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h:
 ../../Core/Inc/i2c.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
@@ -98,4 +98,4 @@ Source/pid_reg.o: ../Source/pid_reg.c ../Source/pid_reg.h \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:

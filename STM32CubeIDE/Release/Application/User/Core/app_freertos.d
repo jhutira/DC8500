@@ -1,5 +1,5 @@
 Application/User/Core/app_freertos.o: \
- /home/jozefh/Development/mcu/prj/DC8500/Core/Src/app_freertos.c \
+ C:/Development/mcu/prj/DC8500/Core/Src/app_freertos.c \
  ../../Core/Inc/app_freertos.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
@@ -56,7 +56,7 @@ Application/User/Core/app_freertos.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
  ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h
 ../../Core/Inc/app_freertos.h:
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
@@ -114,5 +114,5 @@ Application/User/Core/app_freertos.o: \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
 ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h:

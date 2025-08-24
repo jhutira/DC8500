@@ -8,10 +8,10 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	0	static
 ../../TouchGFX/gui/include/gui/energyscreen_screen/energyScreenPresenter.hpp:28:13:energyScreenPresenter::~energyScreenPresenter()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:16:6:virtual void energyScreenPresenter::deactivate()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:16:6:virtual void energyScreenPresenter::deactivate()	0	static
 ../../TouchGFX/gui/include/gui/energyscreen_screen/energyScreenPresenter.hpp:28:13:virtual energyScreenPresenter::~energyScreenPresenter()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:10:6:virtual void energyScreenPresenter::activate()	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:10:6:virtual void energyScreenPresenter::activate()	16	static
 ../../TouchGFX/gui/include/gui/energyscreen_screen/energyScreenPresenter.hpp:28:13:virtual void* energyScreenPresenter::_ZThn4_N21energyScreenPresenterD1Ev()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:4:1:energyScreenPresenter::energyScreenPresenter(energyScreenView&)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:21:6:void energyScreenPresenter::setFlowmeterSett(flowmeter_sett_st)	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:26:6:void energyScreenPresenter::resetEnergyCnt()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:4:1:energyScreenPresenter::energyScreenPresenter(energyScreenView&)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:21:6:void energyScreenPresenter::setFlowmeterSett(flowmeter_sett_st)	8	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenPresenter.cpp:26:6:void energyScreenPresenter::resetEnergyCnt()	0	static

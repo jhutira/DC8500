@@ -1,5 +1,5 @@
 Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/event_groups.o: \
- /home/jozefh/Development/mcu/prj/DC8500/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c \
+ C:/Development/mcu/prj/DC8500/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

@@ -1,44 +1,45 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:44:6:virtual void mainScreenView::tearDownScreen()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:44:6:virtual void mainScreenView::tearDownScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:349:6:virtual void mainScreenView::doorBtn_clicked()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:362:6:virtual void mainScreenView::doorBtn_clicked()	0	static
 ../../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenView.hpp:17:13:mainScreenView::~mainScreenView()	8	static
 ../../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenView.hpp:17:13:virtual mainScreenView::~mainScreenView()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:146:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:358:6:virtual void mainScreenView::soundBtn_clicked()	8	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:371:6:virtual void mainScreenView::soundBtn_clicked()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	24	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:21:1:mainScreenView::mainScreenView()	24	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:71:6:void mainScreenView::soundBtn_setState(bool)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:119:6:void mainScreenView::print_atemp(int16_t, uint8_t, touchgfx::Unicode::UnicodeChar*, uint16_t)	24	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:142:6:void mainScreenView::print_atemp_short(int16_t, uint8_t, touchgfx::Unicode::UnicodeChar*, uint16_t)	4	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:165:6:void mainScreenView::updateTS1(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:170:6:void mainScreenView::updateTS2(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:175:6:void mainScreenView::updateTS3(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:180:6:void mainScreenView::updateTS4(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:185:6:void mainScreenView::updateTS5(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:190:6:void mainScreenView::updateTS6(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:195:6:void mainScreenView::updateTS7(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:200:6:void mainScreenView::updateTS8(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:205:6:void mainScreenView::updateTS9(int16_t, uint8_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:248:6:void mainScreenView::updateOutput(uint8_t, uint8_t, uint8_t)	32	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:49:6:virtual void mainScreenView::handleTickEvent()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:60:6:void mainScreenView::showIcons(uint8_t, uint8_t)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:97:6:void mainScreenView::updateTimeTA(uint8_t, uint8_t, uint8_t)	40	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:108:6:void mainScreenView::updateDateTA(uint8_t, uint8_t, uint8_t)	24	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:210:6:void mainScreenView::updateLS(int16_t, uint8_t)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:217:6:void mainScreenView::updateFlowMeter(uint16_t, uint8_t)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:224:6:void mainScreenView::updateAccLevel(uint8_t)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:231:6:void mainScreenView::updateEnergy(float, float)	32	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:280:6:void mainScreenView::updatePAirFlap(uint8_t, uint8_t)	32	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:298:6:void mainScreenView::updateSAirFlap(uint8_t, uint8_t)	32	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:319:6:void mainScreenView::updateInfoMsg(TEXTS)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:336:6:void mainScreenView::updateDebug()	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:373:6:virtual void mainScreenView::profileSldChangeVal(int)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:383:6:virtual void mainScreenView::profileSldChangeConf(int)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:79:6:void mainScreenView::doorBtn_setLabelDoor(bool)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:328:6:void mainScreenView::updateProfileSld(uint16_t, uint16_t, uint16_t)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:394:6:void mainScreenView::drawScheme(uint8_t)	56	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:26:6:virtual void mainScreenView::setupScreen()	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:21:1:mainScreenView::mainScreenView()	24	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:84:6:void mainScreenView::soundBtn_setState(bool)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:132:6:void mainScreenView::print_atemp(int16_t, uint8_t, touchgfx::Unicode::UnicodeChar*, uint16_t)	24	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:155:6:void mainScreenView::print_atemp_short(int16_t, uint8_t, touchgfx::Unicode::UnicodeChar*, uint16_t)	4	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:178:6:void mainScreenView::updateTS1(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:183:6:void mainScreenView::updateTS2(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:188:6:void mainScreenView::updateTS3(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:193:6:void mainScreenView::updateTS4(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:198:6:void mainScreenView::updateTS5(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:203:6:void mainScreenView::updateTS6(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:208:6:void mainScreenView::updateTS7(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:213:6:void mainScreenView::updateTS8(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:218:6:void mainScreenView::updateTS9(int16_t, uint8_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:261:6:void mainScreenView::updateOutput(uint8_t, uint8_t, uint8_t, uint8_t)	32	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:49:6:virtual void mainScreenView::handleTickEvent()	8	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:60:6:void mainScreenView::showIcons(uint8_t, uint8_t)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:71:6:void mainScreenView::energyPanel_setVisible(bool)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:110:6:void mainScreenView::updateTimeTA(uint8_t, uint8_t, uint8_t)	40	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:121:6:void mainScreenView::updateDateTA(uint8_t, uint8_t, uint8_t)	24	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:223:6:void mainScreenView::updateLS(int16_t, uint8_t)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:230:6:void mainScreenView::updateFlowMeter(uint16_t, uint8_t)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:237:6:void mainScreenView::updateAccLevel(uint8_t)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:244:6:void mainScreenView::updateEnergy(float, float)	32	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:293:6:void mainScreenView::updatePAirFlap(uint8_t, uint8_t)	32	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:311:6:void mainScreenView::updateSAirFlap(uint8_t, uint8_t)	32	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:332:6:void mainScreenView::updateInfoMsg(TEXTS)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:349:6:void mainScreenView::updateDebug()	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:386:6:virtual void mainScreenView::profileSldChangeVal(int)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:396:6:virtual void mainScreenView::profileSldChangeConf(int)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:92:6:void mainScreenView::doorBtn_setLabelDoor(bool)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:341:6:void mainScreenView::updateProfileSld(uint16_t, uint16_t, uint16_t)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:407:6:void mainScreenView::drawScheme(uint8_t)	56	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/mainscreen_screen/mainScreenView.cpp:26:6:virtual void mainScreenView::setupScreen()	16	static

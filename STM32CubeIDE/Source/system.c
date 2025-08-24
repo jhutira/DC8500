@@ -124,6 +124,8 @@ void system_setDefault(void)
 	flowmeter_setDefault();
 	energy_setDefault();
 
+	oTemp_setDefault();
+
 
 }
 
@@ -168,6 +170,8 @@ void system_loadData(void)
 	flowmeter_loadSettings();
 	energy_loadSettings();
 
+	oTemp_loadSettings();
+
 
 }
 
@@ -208,6 +212,9 @@ void system_saveData(void)
 	contPump_saveSettings();
 	flowmeter_saveSettings();
 	energy_saveSettings();
+
+	oTemp_saveSettings();
+
 }
 
 /******************************************************************************

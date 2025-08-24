@@ -5,7 +5,7 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<energyScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<energyScreenView, const touchgfx::AbstractButton&>::~Callback()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<energyScreenView, const ComboBoxCont&, short unsigned int>::~Callback()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:39:6:virtual void energyScreenView::tearDownScreen()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:39:6:virtual void energyScreenView::tearDownScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = energyScreenView; T1 = const ComboBoxCont&; T2 = short unsigned int]	12	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = energyScreenView; T1 = const ComboBoxCont&; T2 = short unsigned int]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = energyScreenView; T1 = const touchgfx::AbstractButton&]	8	static
@@ -17,15 +17,15 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<energyScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<energyScreenView, const ComboBoxCont&, short unsigned int>::~Callback()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:146:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:52:6:void energyScreenView::onTextAreaClick(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:63:6:void energyScreenView::onComboChanged(const ComboBoxCont&, uint16_t)	16	static
-/opt/st/stm32cubeide_1.18.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/arm-none-eabi/include/c++/13.3.1/bits/std_function.h:267:7:), _Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Res = void; _Functor = energyScreenView::clearEngBtn_clicked()::<lambda()>; _ArgTypes = {}]	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:94:6:virtual void energyScreenView::clearEngBtn_clicked()	32	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:52:6:void energyScreenView::onTextAreaClick(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:63:6:void energyScreenView::onComboChanged(const ComboBoxCont&, uint16_t)	16	static
+C:\Development\mcu\tools\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\arm-none-eabi\include\c++\13.3.1\bits\std_function.h:267:7:), _Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Res = void; _Functor = energyScreenView::clearEngBtn_clicked()::<lambda()>; _ArgTypes = {}]	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:94:6:virtual void energyScreenView::clearEngBtn_clicked()	32	static
 ../../TouchGFX/gui/include/gui/energyscreen_screen/energyScreenView.hpp:15:13:energyScreenView::~energyScreenView()	16	static
 ../../TouchGFX/gui/include/gui/energyscreen_screen/energyScreenView.hpp:15:13:virtual energyScreenView::~energyScreenView()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:102:6:virtual void energyScreenView::okBtn_clicked()	24	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:3:1:energyScreenView::energyScreenView()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:45:6:void energyScreenView::initFlowmeterSett(flowmeter_sett_st)	16	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:120:6:void energyScreenView::qd_okBtn_clicked()	0	static
-/opt/st/stm32cubeide_1.18.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/arm-none-eabi/include/c++/13.3.1/bits/std_function.h:288:7:) [with _Res = void; _Functor = energyScreenView::clearEngBtn_clicked()::<lambda()>; _ArgTypes = {}]	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:10:6:virtual void energyScreenView::setupScreen()	48	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:102:6:virtual void energyScreenView::okBtn_clicked()	24	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:3:1:energyScreenView::energyScreenView()	8	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:45:6:void energyScreenView::initFlowmeterSett(flowmeter_sett_st)	16	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:120:6:void energyScreenView::qd_okBtn_clicked()	0	static
+C:\Development\mcu\tools\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\arm-none-eabi\include\c++\13.3.1\bits\std_function.h:288:7:) [with _Res = void; _Functor = energyScreenView::clearEngBtn_clicked()::<lambda()>; _ArgTypes = {}]	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/energyscreen_screen/energyScreenView.cpp:10:6:virtual void energyScreenView::setupScreen()	48	static

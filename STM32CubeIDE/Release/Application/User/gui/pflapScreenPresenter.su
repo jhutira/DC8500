@@ -8,9 +8,9 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	0	static
 ../../TouchGFX/gui/include/gui/pflapscreen_screen/pflapScreenPresenter.hpp:28:13:pflapScreenPresenter::~pflapScreenPresenter()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/pflapscreen_screen/pflapScreenPresenter.cpp:18:6:virtual void pflapScreenPresenter::deactivate()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/pflapscreen_screen/pflapScreenPresenter.cpp:18:6:virtual void pflapScreenPresenter::deactivate()	0	static
 ../../TouchGFX/gui/include/gui/pflapscreen_screen/pflapScreenPresenter.hpp:28:13:virtual pflapScreenPresenter::~pflapScreenPresenter()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/pflapscreen_screen/pflapScreenPresenter.cpp:10:6:virtual void pflapScreenPresenter::activate()	80	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/pflapscreen_screen/pflapScreenPresenter.cpp:10:6:virtual void pflapScreenPresenter::activate()	80	static
 ../../TouchGFX/gui/include/gui/pflapscreen_screen/pflapScreenPresenter.hpp:28:13:virtual void* pflapScreenPresenter::_ZThn4_N20pflapScreenPresenterD1Ev()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/pflapscreen_screen/pflapScreenPresenter.cpp:4:1:pflapScreenPresenter::pflapScreenPresenter(pflapScreenView&)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/pflapscreen_screen/pflapScreenPresenter.cpp:23:6:void pflapScreenPresenter::setPIDValues(pidConfig_st)	80	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/pflapscreen_screen/pflapScreenPresenter.cpp:4:1:pflapScreenPresenter::pflapScreenPresenter(pflapScreenView&)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/pflapscreen_screen/pflapScreenPresenter.cpp:23:6:void pflapScreenPresenter::setPIDValues(pidConfig_st)	80	static

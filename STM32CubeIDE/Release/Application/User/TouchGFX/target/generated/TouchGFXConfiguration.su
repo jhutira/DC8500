@@ -20,8 +20,8 @@
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:6:7:FrontendHeap::~FrontendHeap()	8	static
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:58:29:void __tcf_0()	8	static
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:6:7:virtual FrontendHeap::~FrontendHeap()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:47:6:void touchgfx_init()	32	static,ignoring_inline_asm
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:71:6:void touchgfx_components_init()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:79:6:void touchgfx_taskEntry()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:88:1:cpp)	32	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:88:1:cpp)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:47:6:void touchgfx_init()	32	static,ignoring_inline_asm
+C:/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:71:6:void touchgfx_components_init()	8	static
+C:/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:79:6:void touchgfx_taskEntry()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:88:1:cpp)	32	static
+C:/Development/mcu/prj/DC8500/TouchGFX/target/generated/TouchGFXConfiguration.cpp:88:1:cpp)	0	static

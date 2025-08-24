@@ -1,5 +1,5 @@
 Application/User/generated/Texts.o: \
- /home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/Texts.cpp \
+ C:/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/Texts.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \

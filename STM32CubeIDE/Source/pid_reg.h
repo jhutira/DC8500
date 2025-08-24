@@ -61,6 +61,7 @@ typedef struct
 ** Functions
 *******************************************************************************/
 void pid_init(pid_st *pid, uint32_t mode,  float Kp, float Ki, float Kd, float outMin, float outMax, float t);
+void pid_install(pid_st *pid);
 void pid_setDefault(pid_st *pid);
 void pid_setSetpoint(pid_st *pid, float setpoint);
 void pid_setDt(pid_st *pid, float dt);

@@ -8,8 +8,8 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	1
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	1
 ../../TouchGFX/gui/include/gui/langscreen_screen/langScreenPresenter.hpp:28:13:langScreenPresenter::~langScreenPresenter()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/langscreen_screen/langScreenPresenter.cpp:10:6:virtual void langScreenPresenter::activate()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/langscreen_screen/langScreenPresenter.cpp:10:6:virtual void langScreenPresenter::activate()	1
 ../../TouchGFX/gui/include/gui/langscreen_screen/langScreenPresenter.hpp:28:13:virtual langScreenPresenter::~langScreenPresenter()	1
 ../../TouchGFX/gui/include/gui/langscreen_screen/langScreenPresenter.hpp:28:13:virtual void* langScreenPresenter::_ZThn4_N19langScreenPresenterD1Ev()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/langscreen_screen/langScreenPresenter.cpp:4:1:langScreenPresenter::langScreenPresenter(langScreenView&)	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/langscreen_screen/langScreenPresenter.cpp:20:6:void langScreenPresenter::setLanguageId(uint8_t)	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/langscreen_screen/langScreenPresenter.cpp:4:1:langScreenPresenter::langScreenPresenter(langScreenView&)	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/langscreen_screen/langScreenPresenter.cpp:20:6:void langScreenPresenter::setLanguageId(uint8_t)	1

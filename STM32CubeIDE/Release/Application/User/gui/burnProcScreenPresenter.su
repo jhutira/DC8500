@@ -8,9 +8,9 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	0	static
 ../../TouchGFX/gui/include/gui/burnprocscreen_screen/burnProcScreenPresenter.hpp:28:13:burnProcScreenPresenter::~burnProcScreenPresenter()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnprocscreen_screen/burnProcScreenPresenter.cpp:19:6:virtual void burnProcScreenPresenter::deactivate()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnprocscreen_screen/burnProcScreenPresenter.cpp:19:6:virtual void burnProcScreenPresenter::deactivate()	0	static
 ../../TouchGFX/gui/include/gui/burnprocscreen_screen/burnProcScreenPresenter.hpp:28:13:virtual burnProcScreenPresenter::~burnProcScreenPresenter()	8	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnprocscreen_screen/burnProcScreenPresenter.cpp:11:6:virtual void burnProcScreenPresenter::activate()	64	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnprocscreen_screen/burnProcScreenPresenter.cpp:11:6:virtual void burnProcScreenPresenter::activate()	64	static
 ../../TouchGFX/gui/include/gui/burnprocscreen_screen/burnProcScreenPresenter.hpp:28:13:virtual void* burnProcScreenPresenter::_ZThn4_N23burnProcScreenPresenterD1Ev()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnprocscreen_screen/burnProcScreenPresenter.cpp:5:1:burnProcScreenPresenter::burnProcScreenPresenter(burnProcScreenView&)	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnprocscreen_screen/burnProcScreenPresenter.cpp:25:6:void burnProcScreenPresenter::setBurnPhasesValues(burnPhases_st)	32	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnprocscreen_screen/burnProcScreenPresenter.cpp:5:1:burnProcScreenPresenter::burnProcScreenPresenter(burnProcScreenView&)	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnprocscreen_screen/burnProcScreenPresenter.cpp:25:6:void burnProcScreenPresenter::setBurnPhasesValues(burnPhases_st)	32	static

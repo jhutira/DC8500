@@ -17,6 +17,8 @@
 
 #include "digital.h"
 #include "rtc.h"
+#include "energy.h"
+
 /******************************************************************************
 ** Defines
 *******************************************************************************/
@@ -53,6 +55,8 @@ accum_st accum;
 boiler_st boiler;
 
 st_auxOut auxOut;
+
+outdoorTemp_st outdoorTemp;
 
 
 /******************************************************************************
@@ -586,11 +590,6 @@ void waterExch_regProcess(void)
 
 	fireplace.waterExch.status = status;
 	fireplace.waterExch.pumpPwm = pumpPwm;
-
-	if (fTick_1min)
-	{
-		fTick_1min = 0;
-	}
 }
 
 
@@ -605,8 +604,6 @@ void waterExch_regProcess(void)
 *******************************************************************************/
 void checkDoorSwitch(void)
 {
-	//debug32 = din[DI2].status;
-
 	if (fireplace.door.usedSwitch == 0)
     {
         return;
@@ -685,6 +682,18 @@ void checkTempSensor(void)
 //    }
 }
 
+/******************************************************************************
+** contPump_install
+*******************************************************************************
+* Description    : Install contPump
+* Input          : None
+* Return         : None
+*******************************************************************************/
+void contPump_install(void)
+{
+	contPump_setDefault();
+	contPump_saveSettings();
+}
 
 /******************************************************************************
  ** contPump_setDefault
@@ -731,7 +740,7 @@ void contPump_saveSettings(void)
 /******************************************************************************
 ** accum_install
 *******************************************************************************
-* Description    : Install boiler
+* Description    : Install accum
 * Input          : None
 * Return         : None
 *******************************************************************************/
@@ -1073,6 +1082,58 @@ void boiler_regProcess(uint8_t en)
     }
 }
 
+
+/******************************************************************************
+** oTemp_install
+*******************************************************************************
+* Description    : Install oTemp
+* Input          : None
+* Return         : None
+*******************************************************************************/
+void oTemp_install(void)
+{
+	oTemp_setDefault();
+	oTemp_saveSettings();
+}
+
+/******************************************************************************
+** oTemp_setDefault
+*******************************************************************************
+* Description    : Setting default values
+* Input          : None
+* Return         : None
+*******************************************************************************/
+void oTemp_setDefault(void)
+{
+	outdoorTemp.view = 0;
+}
+
+/******************************************************************************
+** oTemp_loadSettings
+*******************************************************************************
+* Description    : Load Settings
+* Input          : None
+* Return         : None
+*******************************************************************************/
+void oTemp_loadSettings(void)
+{
+	eem_readBlock(aOUTDOOR_TEMP, sizeof(outdoorTemp_st), (uint8_t*)&outdoorTemp);
+}
+
+/******************************************************************************
+** oTemp_saveSettings
+*******************************************************************************
+* Description    : Save Settings
+* Input          : None
+* Return         : None
+*******************************************************************************/
+void oTemp_saveSettings(void)
+{
+	eem_writeBlock(aOUTDOOR_TEMP, sizeof(outdoorTemp_st), (uint8_t*)&outdoorTemp);
+}
+
+
+
 /******************************************************************************
 ** auxout_install
 *******************************************************************************
@@ -1196,13 +1257,17 @@ void reg_setRegScheme(uint8_t init)
 		fireplace_install();
 		digital_install();
 		lambda_init();
-		contPump_setDefault();
+		contPump_install();
 
-		airflap_setDefault(PRIM_F);
-		airflap_setDefault(SEC_F);
+		airflap_install(PRIM_F);
+		airflap_install(SEC_F);
 
-		pid_setDefault(&airflap[PRIM_F].pid);
-		pid_setDefault(&airflap[SEC_F].pid);
+		pid_install(&airflap[PRIM_F].pid);
+		pid_install(&airflap[SEC_F].pid);
+
+		flowmeter_install();
+
+		oTemp_install();
 
 	}
 	_setSensorIsUsed(SN_E);
@@ -1218,12 +1283,12 @@ void reg_setRegScheme(uint8_t init)
 	switch (regSch)
 	{
 		case SCH_01:
-			modus = mUSE_WATER_EXCH | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM;
+			modus = mUSE_WATER_EXCH | mUSE_ENG_MEAS | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM;
 			_setSensorIsUsed(SN_A);
 			break;
 
 		case SCH_02:
-			modus = mUSE_WATER_EXCH | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM | mUSE_VAL_MIX | mUSE_PUMP2;
+			modus = mUSE_WATER_EXCH | mUSE_ENG_MEAS | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM | mUSE_VAL_MIX | mUSE_PUMP2;
 			_setSensorIsUsed(SN_A);
 			_setSensorIsUsed(SN_H);
 			_setSensorIsUsed(SN_M);
@@ -1231,42 +1296,55 @@ void reg_setRegScheme(uint8_t init)
 			break;
 
 		case SCH_03:
-			modus = mUSE_WATER_EXCH | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM  | mUSE_BOILER  | mUSE_2LOOPS | mUSE_VAL_AB;
+			modus = mUSE_WATER_EXCH | mUSE_ENG_MEAS | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM  | mUSE_BOILER  | mUSE_2LOOPS | mUSE_VAL_AB;
 			_setSensorIsUsed(SN_A);
 			_setSensorIsUsed(SN_B);
 			break;
 
 		case SCH_04:
-			modus = mUSE_WATER_EXCH | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM  | mUSE_BOILER  | mUSE_2LOOPS | mUSE_PUMP2;
+			modus = mUSE_WATER_EXCH | mUSE_ENG_MEAS | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM  | mUSE_BOILER  | mUSE_2LOOPS | mUSE_PUMP2;
 			_setSensorIsUsed(SN_A);
 			_setSensorIsUsed(SN_B);
 			break;
 
 		case SCH_05:
-			modus = mUSE_WATER_EXCH | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_BOILER  | mUSE_2LOOPS | mUSE_PUMP2;
+			modus = mUSE_WATER_EXCH | mUSE_ENG_MEAS | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_BOILER  | mUSE_2LOOPS | mUSE_PUMP2;
 			_setSensorIsUsed(SN_B);
 			break;
 
 		case SCH_06:
-			modus = mUSE_WATER_EXCH | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_BOILER  | mUSE_2LOOPS | mUSE_VAL_AB;
+			modus = mUSE_WATER_EXCH | mUSE_ENG_MEAS | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_BOILER  | mUSE_2LOOPS | mUSE_VAL_AB;
 			_setSensorIsUsed(SN_B);
 			break;
 
 		case SCH_07:
-			modus = mUSE_WATER_EXCH | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM | mUSE_BOILER  | mUSE_2LOOPS | mUSE_PUMP2;
+			modus = mUSE_WATER_EXCH | mUSE_ENG_MEAS | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM | mUSE_BOILER  | mUSE_2LOOPS | mUSE_PUMP2;
 			_setSensorIsUsed(SN_A);
 			_setSensorIsUsed(SN_H);
 			_setSensorIsUsed(SN_B);
 			break;
 
 		case SCH_08:
-			modus = mUSE_WATER_EXCH | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM | mUSE_BOILER  | mUSE_2LOOPS | mUSE_PUMP2 | mUSE_VAL_MIX | mUSE_PUMP2;
+			modus = mUSE_WATER_EXCH | mUSE_ENG_MEAS | mUSE_PUMP1 | mUSE_FLAP2 | mUSE_ACCUM | mUSE_BOILER  | mUSE_2LOOPS | mUSE_PUMP2 | mUSE_VAL_MIX | mUSE_PUMP2;
 			_setSensorIsUsed(SN_A);
 			_setSensorIsUsed(SN_H);
 			_setSensorIsUsed(SN_B);
 			_setSensorIsUsed(SN_M);
 			_setSensorIsUsed(SN_O);
 			break;
+
+		case SCH_09:
+			modus = mUSE_FLAP2;
+			_clrSensorIsUsed(SN_W);
+			_clrSensorIsUsed(SN_X);
+			break;
+	}
+
+	if (outdoorTemp.view) _setSensorIsUsed(SN_O);
+	if ((modus & mUSE_ENG_MEAS) == 0)
+	{
+		energy.sett.view = 0;
+		flowmeter.sett.view = 0;
 	}
 
 }

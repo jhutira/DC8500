@@ -1,2 +1,2 @@
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Table_Verdanab_TTF_22_4bpp.cpp:219:189:void __tcf_0()	0	static
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Table_Verdanab_TTF_22_4bpp.cpp:217:26:touchgfx::GeneratedFont& getFont_Verdanab_TTF_22_4bpp()	72	static,ignoring_inline_asm
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Table_Verdanab_TTF_22_4bpp.cpp:219:189:void __tcf_0()	0	static
+C:/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Table_Verdanab_TTF_22_4bpp.cpp:217:26:touchgfx::GeneratedFont& getFont_Verdanab_TTF_22_4bpp()	72	static,ignoring_inline_asm

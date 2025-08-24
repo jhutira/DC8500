@@ -62,7 +62,7 @@ extern "C" {
 #define ds_HEAT        	1
 #define ds_WATER_HEAT   2
 
-#define SCH_COUNT	8
+#define SCH_COUNT	9
 
 #define SCH_01	0
 #define SCH_02	1

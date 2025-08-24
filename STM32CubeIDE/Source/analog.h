@@ -48,8 +48,9 @@ extern "C" {
 #define TS_OK       0x01
 #define TS_SHORT    0x02
 #define TS_OPEN     0x04
-#define TS_USED     0x80
 #define TS_ERROR    (TS_SHORT | TS_OPEN)
+
+#define TS_USED     0x80
 
 // analog output mode
 #define mAOUT_10V       0
@@ -59,6 +60,7 @@ extern "C" {
 typedef struct
 {
     int16_t t;
+    uint8_t config;
     uint8_t status;
     int8_t offset;
     uint8_t min;
@@ -103,9 +105,9 @@ void analog_service(void);
 #define sensorStatus(ai)     (ain[ai].status)
 #define sensorErr(ai)        (ain[ai].status & (TS_OPEN | TS_SHORT))
 #define sensorOk(ai)         (ain[ai].status & TS_OK)
-#define sensorIsUsed(ai)     (ain[ai].status & TS_USED)
-#define _setSensorIsUsed(ai) (ain[ai].status |= TS_USED)
-#define _clrSensorIsUsed(ai) (ain[ai].status &= ~TS_USED)
+#define sensorIsUsed(ai)     (ain[ai].config & TS_USED)
+#define _setSensorIsUsed(ai) (ain[ai].config |= TS_USED)
+#define _clrSensorIsUsed(ai) (ain[ai].config &= ~TS_USED)
 
 #ifdef __cplusplus
 }

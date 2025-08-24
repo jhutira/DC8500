@@ -8,9 +8,9 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	1
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	1
 ../../TouchGFX/gui/include/gui/burnscreen_screen/burnScreenPresenter.hpp:28:13:burnScreenPresenter::~burnScreenPresenter()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenPresenter.cpp:15:6:virtual void burnScreenPresenter::deactivate()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenPresenter.cpp:15:6:virtual void burnScreenPresenter::deactivate()	1
 ../../TouchGFX/gui/include/gui/burnscreen_screen/burnScreenPresenter.hpp:28:13:virtual burnScreenPresenter::~burnScreenPresenter()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenPresenter.cpp:10:6:virtual void burnScreenPresenter::activate()	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenPresenter.cpp:10:6:virtual void burnScreenPresenter::activate()	1
 ../../TouchGFX/gui/include/gui/burnscreen_screen/burnScreenPresenter.hpp:28:13:virtual void* burnScreenPresenter::_ZThn4_N19burnScreenPresenterD1Ev()	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenPresenter.cpp:4:1:burnScreenPresenter::burnScreenPresenter(burnScreenView&)	1
-/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenPresenter.cpp:20:6:void burnScreenPresenter::setProfile(burn_profile_st)	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenPresenter.cpp:4:1:burnScreenPresenter::burnScreenPresenter(burnScreenView&)	1
+C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/burnscreen_screen/burnScreenPresenter.cpp:20:6:void burnScreenPresenter::setProfile(burn_profile_st)	1

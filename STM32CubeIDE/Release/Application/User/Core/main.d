@@ -1,6 +1,5 @@
 Application/User/Core/main.o: \
- /home/jozefh/Development/mcu/prj/DC8500/Core/Src/main.c \
- ../../Core/Inc/main.h \
+ C:/Development/mcu/prj/DC8500/Core/Src/main.c ../../Core/Inc/main.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
@@ -45,7 +44,7 @@ Application/User/Core/main.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
  ../../Core/Inc/jpeg_utils_conf.h \
  ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h \
  ../../Core/Inc/crc.h ../../Core/Inc/main.h ../../Core/Inc/dcache.h \
@@ -54,32 +53,32 @@ Application/User/Core/main.o: \
  ../../Core/Inc/jpeg.h ../../Core/Inc/ltdc.h ../../Core/Inc/memorymap.h \
  ../../Core/Inc/rtc.h ../../Core/Inc/tim.h ../../Core/Inc/usart.h \
  ../../Core/Inc/gpio.h ../../TouchGFX/App/app_touchgfx.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/hw_defn.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/uart_log.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g_conf.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/buzzer/buzzer.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/hw_defn.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/uart_log.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g_conf.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/buzzer/buzzer.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_tim.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_bus.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_rcc.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_gpio.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/display/backlight.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/system.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/analog.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/digital.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/air_flap.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/lambda_sen.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/reg.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/fireplace.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/fireplace.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/energy.h \
- /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/debug.h
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/display/backlight.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/system.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/analog.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/digital.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/air_flap.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/lambda_sen.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/reg.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/fireplace.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/fireplace.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/energy.h \
+ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/debug.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
 ../../Core/Inc/stm32u5xx_hal_conf.h:
@@ -125,7 +124,7 @@ Application/User/Core/main.o: \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
 ../../Core/Inc/jpeg_utils_conf.h:
 ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h:
 ../../Core/Inc/crc.h:
@@ -145,29 +144,29 @@ Application/User/Core/main.o: \
 ../../Core/Inc/usart.h:
 ../../Core/Inc/gpio.h:
 ../../TouchGFX/App/app_touchgfx.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/hw_defn.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/uart_log.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g_conf.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/buzzer/buzzer.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/hw_defn.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/uart_log.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g_conf.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/buzzer/buzzer.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_tim.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_bus.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_rcc.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_gpio.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/display/backlight.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/system.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/analog.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/digital.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/air_flap.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/lambda_sen.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/reg.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/fireplace.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/fireplace.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/energy.h:
-/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/debug.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/display/backlight.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/system.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/analog.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/digital.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/air_flap.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/lambda_sen.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/reg.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/fireplace.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/fireplace.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/energy.h:
+C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/debug.h:
