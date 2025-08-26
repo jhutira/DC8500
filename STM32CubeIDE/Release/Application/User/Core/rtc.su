@@ -1,3 +1,3 @@
-C:/Development/mcu/prj/DC8500/Core/Src/rtc.c:31:6:MX_RTC_Init	112	static
-C:/Development/mcu/prj/DC8500/Core/Src/rtc.c:122:6:HAL_RTC_MspInit	240	static
-C:/Development/mcu/prj/DC8500/Core/Src/rtc.c:155:6:HAL_RTC_MspDeInit	0	static
+/home/jozefh/Development/mcu/prj/DC8500/Core/Src/rtc.c:31:6:MX_RTC_Init	112	static
+/home/jozefh/Development/mcu/prj/DC8500/Core/Src/rtc.c:122:6:HAL_RTC_MspInit	240	static
+/home/jozefh/Development/mcu/prj/DC8500/Core/Src/rtc.c:155:6:HAL_RTC_MspDeInit	0	static

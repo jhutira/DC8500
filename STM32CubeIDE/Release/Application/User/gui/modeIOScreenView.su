@@ -3,17 +3,17 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<modeIOScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:94:6:virtual void modeIOScreenView::tearDownScreen()	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:100:6:virtual void modeIOScreenView::tearDownScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = modeIOScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	12	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = modeIOScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<modeIOScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:132:6:virtual void modeIOScreenView::okBtn_clicked()	24	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:99:6:void modeIOScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	24	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:138:6:virtual void modeIOScreenView::okBtn_clicked()	24	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:105:6:void modeIOScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	24	static
 ../../TouchGFX/gui/include/gui/modeioscreen_screen/modeIOScreenView.hpp:14:13:modeIOScreenView::~modeIOScreenView()	16	static
 ../../TouchGFX/gui/include/gui/modeioscreen_screen/modeIOScreenView.hpp:14:13:virtual modeIOScreenView::~modeIOScreenView()	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:3:1:modeIOScreenView::modeIOScreenView()	16	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:115:6:void modeIOScreenView::initOutputComboBox(uint8_t, uint8_t)	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:120:6:void modeIOScreenView::initDInComboBox(uint8_t, uint8_t)	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:125:6:void modeIOScreenView::initCModeP1Box(uint8_t, uint8_t, uint8_t)	16	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:9:6:virtual void modeIOScreenView::setupScreen()	64	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:3:1:modeIOScreenView::modeIOScreenView()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:121:6:void modeIOScreenView::initOutputComboBox(uint8_t, uint8_t)	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:126:6:void modeIOScreenView::initDInComboBox(uint8_t, uint8_t)	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:131:6:void modeIOScreenView::initCModeP1Box(uint8_t, uint8_t, uint8_t)	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/modeioscreen_screen/modeIOScreenView.cpp:9:6:virtual void modeIOScreenView::setupScreen()	64	static

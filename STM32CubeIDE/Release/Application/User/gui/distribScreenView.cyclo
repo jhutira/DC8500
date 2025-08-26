@@ -1,10 +1,10 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:13:6:virtual void distribScreenView::tearDownScreen()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:27:6:virtual void distribScreenView::okBtnClicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:13:6:virtual void distribScreenView::tearDownScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:27:6:virtual void distribScreenView::okBtnClicked()	2
 ../../TouchGFX/gui/include/gui/distribscreen_screen/distribScreenView.hpp:11:13:distribScreenView::~distribScreenView()	1
 ../../TouchGFX/gui/include/gui/distribscreen_screen/distribScreenView.hpp:11:13:virtual distribScreenView::~distribScreenView()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:3:1:distribScreenView::distribScreenView()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:18:6:void distribScreenView::initDistribBtn(uint8_t)	4
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:8:6:virtual void distribScreenView::setupScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:3:1:distribScreenView::distribScreenView()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:18:6:void distribScreenView::initDistribBtn(uint8_t)	4
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenView.cpp:8:6:virtual void distribScreenView::setupScreen()	1

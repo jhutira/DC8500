@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/TouchGFXHAL.o: \
- C:/Development/mcu/prj/DC8500/TouchGFX/target/TouchGFXHAL.cpp \
+ /home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/TouchGFXHAL.cpp \
  ../../TouchGFX/target/TouchGFXHAL.hpp \
  ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp \
  ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/include/touchgfx_nema/HALGPU2D.hpp \

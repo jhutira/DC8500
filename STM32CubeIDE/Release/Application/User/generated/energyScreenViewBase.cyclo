@@ -28,10 +28,10 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<energyScreenPresenter>::~View()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<energyScreenViewBase, const touchgfx::AbstractButton&>::~Callback()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:90:6:virtual void energyScreenViewBase::setupScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:89:6:virtual void energyScreenViewBase::setupScreen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:96:6:void energyScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	4
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:95:6:void energyScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	4
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:36:7:touchgfx::Widget::Widget()	1
@@ -39,7 +39,7 @@ C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	4
 ../../TouchGFX/gui/include/gui/containers/QuestionDlgCont.hpp:14:13:QuestionDlgCont::~QuestionDlgCont()	2
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:85:1:energyScreenViewBase::~energyScreenViewBase()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:85:1:virtual energyScreenViewBase::~energyScreenViewBase()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:84:1:energyScreenViewBase::~energyScreenViewBase()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:84:1:virtual energyScreenViewBase::~energyScreenViewBase()	1
 ../../TouchGFX/gui/include/gui/containers/QuestionDlgCont.hpp:14:13:virtual QuestionDlgCont::~QuestionDlgCont()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:10:1:energyScreenViewBase::energyScreenViewBase()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/energyscreen_screen/energyScreenViewBase.cpp:10:1:energyScreenViewBase::energyScreenViewBase()	2

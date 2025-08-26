@@ -1,2 +1,2 @@
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Table_Verdanab_TTF_20_4bpp.cpp:229:189:void __tcf_0()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Table_Verdanab_TTF_20_4bpp.cpp:227:26:touchgfx::GeneratedFont& getFont_Verdanab_TTF_20_4bpp()	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Table_Verdanab_TTF_20_4bpp.cpp:229:189:void __tcf_0()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Table_Verdanab_TTF_20_4bpp.cpp:227:26:touchgfx::GeneratedFont& getFont_Verdanab_TTF_20_4bpp()	3

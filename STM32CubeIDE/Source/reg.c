@@ -128,7 +128,7 @@ void reg_process(void)
 	}
 
 	/* External heating */
-	if ((fireplace.burning.phase == BP2_BURNING) || (fireplace.burning.phase == BP3_BURN_OUT))
+	if ((fireplace.burning.phase == BP1_STBURN) || (fireplace.burning.phase == BP2_BURNING) || (fireplace.burning.phase == BP3_BURN_OUT))
 	{
 		extHeatSrcOn = 0;
 	}
@@ -635,51 +635,29 @@ void checkDoorSwitch(void)
 *******************************************************************************/
 void checkTempSensor(void)
 {
-//    int16_t hyst;
-//    uint8_t sen_err;
-//
-//    sen_err = 0;
-    // Emergency stops
-//    if (burning.phase == BURN_F0_ERR)
-//    {
-//        if ((regMode == rmFIRE_WATER) || (regMode == rmFIRE_LS_WATER))
-//        {
-//            if (waterExch.state & stWEXCH_ERR)
-//            {
-//                sen_err = 1;
-//            }
-//        }
-//        if (sensorOk(SN_E) && (sen_err == 0))
-//        {
-//            burning.fRestartProcess = 1;        /* restart process */
-//        }
-//    }
-//    else
-//    {
-//        if ((regMode == rmFIRE_WATER) || (regMode == rmFIRE_LS_WATER))
-//        {
-//            if (waterExch.state & stWEXCH_ERR)
-//            {
-//                sen_err = 1;
-//            }
-//        }
-//        if ((sensorStatus(SN_E) & SN_ERROR) || (sen_err != 0))
-//        {
-//            burning.lastPhase = burning.phase;  /* save last phase */
-//            burning.phase = BURN_F0_ERR;
-//        }
-//    }
-//
-//    /* test critical temperature */
-//    hyst = (int16_t) burning.critTHyst * 10;
-//    if (ain[SN_W].t >= burning.critTemp)
-//    {
-//        burning.fCritTemp = 1;
-//    }
-//    if (ain[SN_W].t <= (burning.critTemp - hyst))
-//    {
-//        burning.fCritTemp = 0;
-//    }
+	uint8_t sen_err = 0;
+
+	if ((modus & mUSE_WATER_EXCH) && (fireplace.waterExch.status & sWEXCH_TS_ERR))
+	{
+		sen_err = 1;
+	}
+
+	//Emergency stops
+	 if (fireplace.burning.phase == BP0_ESTOP)
+	 {
+		if ( sensorOk(SN_E) && (sen_err == 0))
+		{
+			fireplace.burning.fRestartProcess = 1;        /* restart process */
+		}
+	 }
+	 else
+	 {
+		 if ( sensorErr(SN_E) || (sen_err != 0))
+		 {
+			 fireplace.burning.phase_prev = fireplace.burning.phase;  /* save last phase */
+			 fireplace.burning.phase = BP0_ESTOP;
+		 }
+	 }
 }
 
 /******************************************************************************

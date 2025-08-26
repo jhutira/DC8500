@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32u5xx.o: \
- C:/Development/mcu/prj/DC8500/Core/Src/system_stm32u5xx.c \
+ /home/jozefh/Development/mcu/prj/DC8500/Core/Src/system_stm32u5xx.c \
  ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5g9xx.h \
  ../../Drivers/CMSIS/Include/core_cm33.h \

@@ -1,7 +1,7 @@
 Libraries/modbus/modbus_server_tcp.o: \
  ../Libraries/modbus/modbus_server_tcp.c \
  ../Libraries/modbus/modbus_server_tcp.h ../Libraries/modbus/modbus.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h \
  ../../Core/Inc/usart.h ../../Core/Inc/main.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
@@ -47,11 +47,11 @@ Libraries/modbus/modbus_server_tcp.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h
 ../Libraries/modbus/modbus_server_tcp.h:
 ../Libraries/modbus/modbus.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
 ../../Core/Inc/usart.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
@@ -98,5 +98,5 @@ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h:

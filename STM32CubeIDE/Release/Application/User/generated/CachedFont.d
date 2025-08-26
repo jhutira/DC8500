@@ -1,5 +1,5 @@
 Application/User/generated/CachedFont.o: \
- C:/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/CachedFont.cpp \
+ /home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/CachedFont.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/CachedFont.hpp \
  ../../TouchGFX/generated/fonts/include/fonts/FontCache.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

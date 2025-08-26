@@ -44,7 +44,7 @@ Libraries/eeprom/eeprom.o: ../Libraries/eeprom/eeprom.c \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h
 ../Libraries/eeprom/eeprom.h:
 ../../Core/Inc/i2c.h:
 ../../Core/Inc/main.h:
@@ -92,4 +92,4 @@ Libraries/eeprom/eeprom.o: ../Libraries/eeprom/eeprom.c \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:

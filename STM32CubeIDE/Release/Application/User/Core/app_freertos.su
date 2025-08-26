@@ -1,4 +1,4 @@
-C:/Development/mcu/prj/DC8500/Core/Src/app_freertos.c:144:6:StartDefaultTask	8	static
-C:/Development/mcu/prj/DC8500/Core/Src/app_freertos.c:163:6:Modbus_Task	8	static
-C:/Development/mcu/prj/DC8500/Core/Src/app_freertos.c:80:6:vApplicationIdleHook	0	static
-C:/Development/mcu/prj/DC8500/Core/Src/app_freertos.c:99:6:MX_FREERTOS_Init	8	static
+/home/jozefh/Development/mcu/prj/DC8500/Core/Src/app_freertos.c:144:6:StartDefaultTask	8	static
+/home/jozefh/Development/mcu/prj/DC8500/Core/Src/app_freertos.c:163:6:Modbus_Task	8	static
+/home/jozefh/Development/mcu/prj/DC8500/Core/Src/app_freertos.c:80:6:vApplicationIdleHook	0	static
+/home/jozefh/Development/mcu/prj/DC8500/Core/Src/app_freertos.c:99:6:MX_FREERTOS_Init	8	static

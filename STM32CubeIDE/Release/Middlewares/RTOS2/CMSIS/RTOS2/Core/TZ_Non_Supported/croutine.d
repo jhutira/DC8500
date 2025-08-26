@@ -1,5 +1,5 @@
 Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/croutine.o: \
- C:/Development/mcu/prj/DC8500/Middlewares/Third_Party/FreeRTOS/Source/croutine.c \
+ /home/jozefh/Development/mcu/prj/DC8500/Middlewares/Third_Party/FreeRTOS/Source/croutine.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

@@ -1,5 +1,5 @@
 Source/digital.o: ../Source/digital.c ../Source/digital.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h \
  ../../Core/Inc/i2c.h ../../Core/Inc/main.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
@@ -45,18 +45,18 @@ Source/digital.o: ../Source/digital.c ../Source/digital.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
  ../Source/mem_map.h ../Source/system.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h \
  ../../Core/Inc/usart.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h \
  ../Source/analog.h ../Source/air_flap.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h \
  ../Source/lambda_sen.h
 ../Source/digital.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h:
 ../../Core/Inc/i2c.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
@@ -103,15 +103,15 @@ C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/eeprom/eeprom.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
 ../Source/mem_map.h:
 ../Source/system.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus_server_rtu.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/modbus/modbus.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/rs485/rs485.h:
 ../../Core/Inc/usart.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/modbus_bankreg.h:
 ../Source/analog.h:
 ../Source/air_flap.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/pid_reg.h:
 ../Source/lambda_sen.h:

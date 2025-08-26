@@ -1,6 +1,6 @@
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:239:43:const touchgfx::TypedText::TypedTextData* TypedTextDatabase::getInstance(touchgfx::LanguageId)	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:244:10:uint16_t TypedTextDatabase::getInstanceSize()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:249:24:const touchgfx::Font** TypedTextDatabase::getFonts()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:254:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:261:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	11
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:297:1:cpp)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:239:43:const touchgfx::TypedText::TypedTextData* TypedTextDatabase::getInstance(touchgfx::LanguageId)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:244:10:uint16_t TypedTextDatabase::getInstanceSize()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:249:24:const touchgfx::Font** TypedTextDatabase::getFonts()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:254:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:261:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	11
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:297:1:cpp)	1

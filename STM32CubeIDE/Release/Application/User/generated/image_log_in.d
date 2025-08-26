@@ -1,4 +1,4 @@
 Application/User/generated/image_log_in.o: \
- C:/Development/mcu/prj/DC8500/TouchGFX/generated/images/src/rec/image_log_in.cpp \
+ /home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/images/src/rec/image_log_in.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp:

@@ -1,4 +1,5 @@
-Application/User/Core/tim.o: C:/Development/mcu/prj/DC8500/Core/Src/tim.c \
+Application/User/Core/tim.o: \
+ /home/jozefh/Development/mcu/prj/DC8500/Core/Src/tim.c \
  ../../Core/Inc/tim.h ../../Core/Inc/main.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
@@ -44,8 +45,8 @@ Application/User/Core/tim.o: C:/Development/mcu/prj/DC8500/Core/Src/tim.c \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/hw_defn.h
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/hw_defn.h
 ../../Core/Inc/tim.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
@@ -92,5 +93,5 @@ Application/User/Core/tim.o: C:/Development/mcu/prj/DC8500/Core/Src/tim.c \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/hw_defn.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/hw_defn.h:

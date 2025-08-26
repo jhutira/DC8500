@@ -27,15 +27,15 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<burnProcScreenPresenter>::~View()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<burnProcScreenViewBase, const touchgfx::AbstractButton&>::~Callback()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:74:6:virtual void burnProcScreenViewBase::setupScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:73:6:virtual void burnProcScreenViewBase::setupScreen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:79:6:void burnProcScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	3
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:69:1:burnProcScreenViewBase::~burnProcScreenViewBase()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:69:1:virtual burnProcScreenViewBase::~burnProcScreenViewBase()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:78:6:void burnProcScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:68:1:burnProcScreenViewBase::~burnProcScreenViewBase()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:68:1:virtual burnProcScreenViewBase::~burnProcScreenViewBase()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:36:7:touchgfx::Widget::Widget()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:34:5:touchgfx::Button::Button()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	4
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:10:1:burnProcScreenViewBase::burnProcScreenViewBase()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/burnprocscreen_screen/burnProcScreenViewBase.cpp:10:1:burnProcScreenViewBase::burnProcScreenViewBase()	2

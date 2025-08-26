@@ -1,5 +1,5 @@
 Source/main_util.o: ../Source/main_util.c \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
@@ -45,7 +45,7 @@ Source/main_util.o: ../Source/main_util.c \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
  ../../Core/Inc/rtc.h ../../Core/Inc/main.h ../Source/hw_defn.h
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
 ../../Core/Inc/stm32u5xx_hal_conf.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h:

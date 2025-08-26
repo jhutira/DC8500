@@ -1,10 +1,10 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:14:6:virtual void menuScreenView::tearDownScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:14:6:virtual void menuScreenView::tearDownScreen()	1
 ../../TouchGFX/gui/include/gui/menuscreen_screen/menuScreenView.hpp:11:13:menuScreenView::~menuScreenView()	1
 ../../TouchGFX/gui/include/gui/menuscreen_screen/menuScreenView.hpp:11:13:virtual menuScreenView::~menuScreenView()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:26:6:virtual void menuScreenView::serviceBtnClicked()	2
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:4:1:menuScreenView::menuScreenView()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:19:6:void menuScreenView::enableButtons(uint8_t, uint8_t, uint8_t)	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:9:6:virtual void menuScreenView::setupScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:26:6:virtual void menuScreenView::serviceBtnClicked()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:4:1:menuScreenView::menuScreenView()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:19:6:void menuScreenView::enableButtons(uint8_t, uint8_t, uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/menuscreen_screen/menuScreenView.cpp:9:6:virtual void menuScreenView::setupScreen()	1

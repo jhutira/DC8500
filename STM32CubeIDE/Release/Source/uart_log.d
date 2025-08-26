@@ -45,7 +45,7 @@ Source/uart_log.o: ../Source/uart_log.c ../Source/uart_log.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
  ../../Core/Inc/usart.h ../../Core/Inc/main.h
 ../Source/uart_log.h:
 ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h:
@@ -94,6 +94,6 @@ Source/uart_log.o: ../Source/uart_log.c ../Source/uart_log.h \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
 ../../Core/Inc/usart.h:
 ../../Core/Inc/main.h:

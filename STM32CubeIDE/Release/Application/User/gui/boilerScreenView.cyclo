@@ -2,12 +2,12 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<boilerScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenView.cpp:33:6:virtual void boilerScreenView::tearDownScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenView.cpp:35:6:virtual void boilerScreenView::tearDownScreen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = boilerScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = boilerScreenView; T1 = const touchgfx::TextAreaWithOneWildcard&; T2 = const touchgfx::ClickEvent&]	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<boilerScreenView, const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&>::~Callback()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenView.cpp:38:6:void boilerScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	6
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenView.cpp:40:6:void boilerScreenView::textAreaClickHandler(const touchgfx::TextAreaWithOneWildcard&, const touchgfx::ClickEvent&)	6
 ../../TouchGFX/gui/include/gui/boilerscreen_screen/boilerScreenView.hpp:12:13:boilerScreenView::~boilerScreenView()	1
 ../../TouchGFX/gui/include/gui/boilerscreen_screen/boilerScreenView.hpp:12:13:virtual boilerScreenView::~boilerScreenView()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenView.cpp:3:1:boilerScreenView::boilerScreenView()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenView.cpp:9:6:virtual void boilerScreenView::setupScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenView.cpp:4:1:boilerScreenView::boilerScreenView()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenView.cpp:10:6:virtual void boilerScreenView::setupScreen()	1

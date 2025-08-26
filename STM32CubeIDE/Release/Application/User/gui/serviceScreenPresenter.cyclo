@@ -8,8 +8,8 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	1
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	1
 ../../TouchGFX/gui/include/gui/servicescreen_screen/serviceScreenPresenter.hpp:28:13:serviceScreenPresenter::~serviceScreenPresenter()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenPresenter.cpp:20:6:virtual void serviceScreenPresenter::deactivate()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenPresenter.cpp:20:6:virtual void serviceScreenPresenter::deactivate()	1
 ../../TouchGFX/gui/include/gui/servicescreen_screen/serviceScreenPresenter.hpp:28:13:virtual serviceScreenPresenter::~serviceScreenPresenter()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenPresenter.cpp:10:6:virtual void serviceScreenPresenter::activate()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenPresenter.cpp:10:6:virtual void serviceScreenPresenter::activate()	1
 ../../TouchGFX/gui/include/gui/servicescreen_screen/serviceScreenPresenter.hpp:28:13:virtual void* serviceScreenPresenter::_ZThn4_N22serviceScreenPresenterD1Ev()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenPresenter.cpp:4:1:serviceScreenPresenter::serviceScreenPresenter(serviceScreenView&)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/servicescreen_screen/serviceScreenPresenter.cpp:4:1:serviceScreenPresenter::serviceScreenPresenter(serviceScreenView&)	1

@@ -1,5 +1,5 @@
 Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o: \
- C:/Development/mcu/prj/DC8500/Middlewares/Third_Party/FreeRTOS/Source/timers.c \
+ /home/jozefh/Development/mcu/prj/DC8500/Middlewares/Third_Party/FreeRTOS/Source/timers.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

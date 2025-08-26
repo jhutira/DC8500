@@ -49,7 +49,7 @@ Libraries/buzzer/buzzer.o: ../Libraries/buzzer/buzzer.c \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_rcc.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_gpio.h \
  ../../Core/Inc/tim.h ../../Core/Inc/main.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h
 ../Libraries/buzzer/buzzer.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_tim.h:
 ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h:
@@ -101,4 +101,4 @@ Libraries/buzzer/buzzer.o: ../Libraries/buzzer/buzzer.c \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_gpio.h:
 ../../Core/Inc/tim.h:
 ../../Core/Inc/main.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:

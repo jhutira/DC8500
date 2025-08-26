@@ -8,11 +8,11 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	0	static
 ../../TouchGFX/gui/include/gui/systemscreen_screen/systemScreenPresenter.hpp:28:13:systemScreenPresenter::~systemScreenPresenter()	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:19:6:virtual void systemScreenPresenter::deactivate()	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:19:6:virtual void systemScreenPresenter::deactivate()	0	static
 ../../TouchGFX/gui/include/gui/systemscreen_screen/systemScreenPresenter.hpp:28:13:virtual systemScreenPresenter::~systemScreenPresenter()	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:10:6:virtual void systemScreenPresenter::activate()	32	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:10:6:virtual void systemScreenPresenter::activate()	32	static
 ../../TouchGFX/gui/include/gui/systemscreen_screen/systemScreenPresenter.hpp:28:13:virtual void* systemScreenPresenter::_ZThn4_N21systemScreenPresenterD1Ev()	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:4:1:systemScreenPresenter::systemScreenPresenter(systemScreenView&)	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:24:6:void systemScreenPresenter::setDispSett(disp_sett_st)	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:29:6:void systemScreenPresenter::setSoundSett(sound_sett_st)	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:34:6:void systemScreenPresenter::setDefaultSettings()	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:4:1:systemScreenPresenter::systemScreenPresenter(systemScreenView&)	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:24:6:void systemScreenPresenter::setDispSett(disp_sett_st)	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:29:6:void systemScreenPresenter::setSoundSett(sound_sett_st)	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/systemscreen_screen/systemScreenPresenter.cpp:34:6:void systemScreenPresenter::setDefaultSettings()	8	static

@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/nema_hal.o: \
- C:/Development/mcu/prj/DC8500/TouchGFX/target/generated/nema_hal.c \
+ /home/jozefh/Development/mcu/prj/DC8500/TouchGFX/target/generated/nema_hal.c \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \
  ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/include/nema_sys_defs.h \
  ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/include/nema_core.h \

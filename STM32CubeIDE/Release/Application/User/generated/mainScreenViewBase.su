@@ -43,14 +43,14 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<mainScreenViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<mainScreenViewBase, const touchgfx::Slider&, int>::~Callback()	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:227:6:virtual void mainScreenViewBase::setupScreen()	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:227:6:virtual void mainScreenViewBase::setupScreen()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:43:18:virtual void touchgfx::TextAreaWithWildcardBase::invalidateContent() const	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:271:6:void mainScreenViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider&, int)	4	static
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:282:6:void mainScreenViewBase::sliderValueConfirmedCallbackHandler(const touchgfx::Slider&, int)	4	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:271:6:void mainScreenViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider&, int)	4	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:282:6:void mainScreenViewBase::sliderValueConfirmedCallbackHandler(const touchgfx::Slider&, int)	4	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	16	static
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:246:6:void mainScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:246:6:void mainScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:36:7:touchgfx::Widget::Widget()	0	static
@@ -63,7 +63,7 @@ C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_sc
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:36:5:touchgfx::AbstractButton::AbstractButton()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	24	static
 ../../TouchGFX/gui/include/gui/containers/SensorCont.hpp:10:13:SensorCont::~SensorCont()	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:222:1:mainScreenViewBase::~mainScreenViewBase()	16	static
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:222:1:virtual mainScreenViewBase::~mainScreenViewBase()	8	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:222:1:mainScreenViewBase::~mainScreenViewBase()	16	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:222:1:virtual mainScreenViewBase::~mainScreenViewBase()	8	static
 ../../TouchGFX/gui/include/gui/containers/SensorCont.hpp:10:13:virtual SensorCont::~SensorCont()	8	static
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:10:1:mainScreenViewBase::mainScreenViewBase()	240	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp:10:1:mainScreenViewBase::mainScreenViewBase()	240	static

@@ -8,10 +8,10 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	1
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	1
 ../../TouchGFX/gui/include/gui/distribscreen_screen/distribScreenPresenter.hpp:28:13:distribScreenPresenter::~distribScreenPresenter()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:15:6:virtual void distribScreenPresenter::deactivate()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:15:6:virtual void distribScreenPresenter::deactivate()	1
 ../../TouchGFX/gui/include/gui/distribscreen_screen/distribScreenPresenter.hpp:28:13:virtual distribScreenPresenter::~distribScreenPresenter()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:10:6:virtual void distribScreenPresenter::activate()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:10:6:virtual void distribScreenPresenter::activate()	1
 ../../TouchGFX/gui/include/gui/distribscreen_screen/distribScreenPresenter.hpp:28:13:virtual void* distribScreenPresenter::_ZThn4_N22distribScreenPresenterD1Ev()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:4:1:distribScreenPresenter::distribScreenPresenter(distribScreenView&)	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:20:9:uint8_t distribScreenPresenter::getDistrib()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:25:6:void distribScreenPresenter::setDistrib(uint8_t)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:4:1:distribScreenPresenter::distribScreenPresenter(distribScreenView&)	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:20:9:uint8_t distribScreenPresenter::getDistrib()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/distribscreen_screen/distribScreenPresenter.cpp:25:6:void distribScreenPresenter::setDistrib(uint8_t)	1

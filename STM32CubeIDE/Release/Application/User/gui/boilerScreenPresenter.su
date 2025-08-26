@@ -8,7 +8,7 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	0	static
 ../../TouchGFX/gui/include/gui/boilerscreen_screen/boilerScreenPresenter.hpp:28:13:boilerScreenPresenter::~boilerScreenPresenter()	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenPresenter.cpp:10:6:virtual void boilerScreenPresenter::activate()	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenPresenter.cpp:10:6:virtual void boilerScreenPresenter::activate()	0	static
 ../../TouchGFX/gui/include/gui/boilerscreen_screen/boilerScreenPresenter.hpp:28:13:virtual boilerScreenPresenter::~boilerScreenPresenter()	8	static
 ../../TouchGFX/gui/include/gui/boilerscreen_screen/boilerScreenPresenter.hpp:28:13:virtual void* boilerScreenPresenter::_ZThn4_N21boilerScreenPresenterD1Ev()	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenPresenter.cpp:4:1:boilerScreenPresenter::boilerScreenPresenter(boilerScreenView&)	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/boilerscreen_screen/boilerScreenPresenter.cpp:4:1:boilerScreenPresenter::boilerScreenPresenter(boilerScreenView&)	0	static

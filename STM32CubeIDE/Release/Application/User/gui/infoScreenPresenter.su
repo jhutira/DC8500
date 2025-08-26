@@ -8,7 +8,7 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::updateDebug()	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:29:18:virtual void ModelListener::updateRegStatus()	0	static
 ../../TouchGFX/gui/include/gui/infoscreen_screen/infoScreenPresenter.hpp:28:13:infoScreenPresenter::~infoScreenPresenter()	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/infoscreen_screen/infoScreenPresenter.cpp:10:6:virtual void infoScreenPresenter::activate()	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/infoscreen_screen/infoScreenPresenter.cpp:10:6:virtual void infoScreenPresenter::activate()	0	static
 ../../TouchGFX/gui/include/gui/infoscreen_screen/infoScreenPresenter.hpp:28:13:virtual infoScreenPresenter::~infoScreenPresenter()	8	static
 ../../TouchGFX/gui/include/gui/infoscreen_screen/infoScreenPresenter.hpp:28:13:virtual void* infoScreenPresenter::_ZThn4_N19infoScreenPresenterD1Ev()	0	static
-C:/Development/mcu/prj/DC8500/TouchGFX/gui/src/infoscreen_screen/infoScreenPresenter.cpp:4:1:infoScreenPresenter::infoScreenPresenter(infoScreenView&)	0	static
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/gui/src/infoscreen_screen/infoScreenPresenter.cpp:4:1:infoScreenPresenter::infoScreenPresenter(infoScreenView&)	0	static

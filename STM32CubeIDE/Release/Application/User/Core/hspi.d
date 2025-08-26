@@ -1,6 +1,6 @@
 Application/User/Core/hspi.o: \
- C:/Development/mcu/prj/DC8500/Core/Src/hspi.c ../../Core/Inc/hspi.h \
- ../../Core/Inc/main.h \
+ /home/jozefh/Development/mcu/prj/DC8500/Core/Src/hspi.c \
+ ../../Core/Inc/hspi.h ../../Core/Inc/main.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
@@ -45,9 +45,9 @@ Application/User/Core/hspi.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g.h \
- C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g_conf.h
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g.h \
+ /home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g_conf.h
 ../../Core/Inc/hspi.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
@@ -94,6 +94,6 @@ Application/User/Core/hspi.o: \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g.h:
-C:/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g_conf.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Source/main_util.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g.h:
+/home/jozefh/Development/mcu/prj/DC8500/STM32CubeIDE/Libraries/mx25lm51245g/mx25lm51245g_conf.h:

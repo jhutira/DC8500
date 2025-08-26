@@ -1,5 +1,5 @@
 Application/User/generated/Kerning_Verdana_TTF_10_4bpp.o: \
- C:/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Kerning_Verdana_TTF_10_4bpp.cpp \
+ /home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/fonts/src/Kerning_Verdana_TTF_10_4bpp.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

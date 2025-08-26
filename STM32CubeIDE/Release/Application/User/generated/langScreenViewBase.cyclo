@@ -32,7 +32,7 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp:43:7:touchgfx::TextButtonStyle<touchgfx::IconButtonStyle<touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger> > >::~TextButtonStyle()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<langScreenViewBase, const touchgfx::AbstractButton&>::~Callback()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<langScreenViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:72:6:virtual void langScreenViewBase::setupScreen()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:72:6:virtual void langScreenViewBase::setupScreen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = langScreenViewBase; T1 = const touchgfx::AbstractButtonContainer&]	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = langScreenViewBase; T1 = const touchgfx::AbstractButtonContainer&]	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = langScreenViewBase; T1 = const touchgfx::AbstractButton&]	2
@@ -52,14 +52,14 @@ C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_sc
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp:43:7:virtual touchgfx::TextButtonStyle<touchgfx::IconButtonStyle<touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger> > >::~TextButtonStyle()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<langScreenViewBase, const touchgfx::AbstractButton&>::~Callback()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<langScreenViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:67:1:langScreenViewBase::~langScreenViewBase()	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:67:1:virtual langScreenViewBase::~langScreenViewBase()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:67:1:langScreenViewBase::~langScreenViewBase()	1
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:67:1:virtual langScreenViewBase::~langScreenViewBase()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:99:18:virtual void touchgfx::AbstractButtonContainer::executeAction()	3
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:88:6:void langScreenViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	3
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:88:6:void langScreenViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:47:18:virtual void touchgfx::ClickButtonTrigger::handleClickEvent(const touchgfx::ClickEvent&)	6
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:77:6:void langScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:77:6:void langScreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/IconButtonStyle.hpp:59:18:void touchgfx::IconButtonStyle<T>::setIconBitmaps(const touchgfx::Bitmap&, const touchgfx::Bitmap&) [with T = touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:413:10:void touchgfx::Drawable::setWidthHeight(int16_t, int16_t)	1
@@ -72,4 +72,4 @@ C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_sc
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp:67:10:void touchgfx::TextButtonStyle<T>::setText(touchgfx::TypedText) [with T = touchgfx::IconButtonStyle<touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger> >]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:48:5:touchgfx::ImageButtonStyle<T>::ImageButtonStyle() [with T = touchgfx::ClickButtonTrigger]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp:46:5:touchgfx::TextButtonStyle<T>::TextButtonStyle() [with T = touchgfx::IconButtonStyle<touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger> >]	1
-C:/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:10:1:langScreenViewBase::langScreenViewBase()	2
+/home/jozefh/Development/mcu/prj/DC8500/TouchGFX/generated/gui_generated/src/langscreen_screen/langScreenViewBase.cpp:10:1:langScreenViewBase::langScreenViewBase()	2
